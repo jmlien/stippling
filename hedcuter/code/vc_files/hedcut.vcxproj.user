@@ -9,5 +9,7 @@
     <LocalDebuggerCommandArguments>-debug -black -n 5000 -iteration 100 -radius 5 einstein-medium.png</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerWorkingDirectory>$(ProjectDir)\..\..\..\images</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>
+    </LocalDebuggerEnvironment>
   </PropertyGroup>
 </Project>

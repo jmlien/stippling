@@ -1,0 +1,13 @@
+﻿빌드 시작: 2015-11-07 오후 4:02:12
+     1>2 노드의 "C:\Users\w66_000\Documents\GitHub\stippling\voronoi\picopng\picopng.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt picopng.cpp
+         picopng.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\w66_000\Documents\GitHub\stippling\voronoi\Release\picopng.lib" /NOLOGO /LTCG Release\picopng.obj
+         picopng.vcxproj -> C:\Users\w66_000\Documents\GitHub\stippling\voronoi\Release\picopng.lib
+     1>"C:\Users\w66_000\Documents\GitHub\stippling\voronoi\picopng\picopng.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.98

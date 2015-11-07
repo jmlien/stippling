@@ -121,7 +121,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>$(OPENCVX64_LIBRARYDIR)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_highgui2410.lib;opencv_core2410.lib;opencv_imgproc2410.lib;opencv_flann2410.lib;opencv_contrib2410.lib;opencv_features2d2410.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>opencv_highgui2411.lib;opencv_core2411.lib;opencv_imgproc2411.lib;opencv_flann2411.lib;opencv_contrib2411.lib;opencv_features2d2411.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
