@@ -36,6 +36,7 @@ bool Hedcut::build(cv::Mat & input_image, int n)
 	//create disks
 	create_disks(input_image, cvt);
 
+
 	return true;
 }
 

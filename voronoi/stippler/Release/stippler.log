@@ -1,13 +1,8 @@
-﻿빌드 시작: 2015-11-07 오후 4:02:13
+﻿빌드 시작: 2015-11-13 오후 1:16:11
      1>2 노드의 "C:\Users\w66_000\Documents\GitHub\stippling\voronoi\stippler\stippler.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\boost_1_59_0 /IC:\Users\w66_000\Documents\GitHub\stippling\voronoi\picopng /Zi /nologo /W3 /WX- /Ox /Oi /Ot /Oy- /GL /D WIN32 /D STIPPLER_LIBRARY /D NDEBUG /D _WINDOWS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS- /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stippler.cpp bitmap.cpp stippler_api.cpp VoronoiDiagramGenerator.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\boost_1_59_0 /IC:\Users\w66_000\Documents\GitHub\stippling\voronoi\picopng /Zi /nologo /W3 /WX- /Ox /Oi /Ot /Oy- /GL /D WIN32 /D STIPPLER_LIBRARY /D NDEBUG /D _WINDOWS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS- /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stippler.cpp
          stippler.cpp
-         bitmap.cpp
-         stippler_api.cpp
-     1>stippler_api.cpp(38): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : 'strncpy' 선언을 참조하십시오.
-         VoronoiDiagramGenerator.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\w66_000\Documents\GitHub\stippling\voronoi\Release\stippler.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\boost_1_59_0\stage\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\w66_000\Documents\GitHub\stippling\voronoi\Release\stippler.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\w66_000\Documents\GitHub\stippling\voronoi\Release\stippler.lib" /MACHINE:X86 /SAFESEH /DLL Release\stippler.obj
          Release\bitmap.obj
@@ -22,4 +17,4 @@
 
 빌드했습니다.
 
-경과 시간: 00:00:08.56
+경과 시간: 00:00:08.01
