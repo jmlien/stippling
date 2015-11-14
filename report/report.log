@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.20)  13 NOV 2015 22:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.20)  14 NOV 2015 18:10
 entering extended mode
-**report.tex
-(C:\Users\w66_000\Documents\GitHub\stippling\report\report.tex
+**C:/Users/w66_000/Documents/GitHub/stippling/report/report.tex
+(C:/Users/w66_000/Documents/GitHub/stippling/report/report.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -421,110 +421,118 @@ LaTeX Info: Redefining \nameref on input line 58.
 (C:\Users\w66_000\Documents\GitHub\stippling\report\report.out)
 (C:\Users\w66_000\Documents\GitHub\stippling\report\report.out)
 \@outlinefile=\write4
-LaTeX Font Info:    Try loading font information for U+lasy on input line 69.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 67.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 69.
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 69.
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 73.
-
-<FIGS/intensity.png, id=26, 321.2pt x 236.885pt>
-File: FIGS/intensity.png Graphic file (type png)
- <use FIGS/intensity.png>
-Package pdftex.def Info: FIGS/intensity.png used on input line 89.
-(pdftex.def)             Requested size: 150.32503pt x 110.86606pt.
-
-<FIGS/sites.png, id=27, 602.25pt x 481.8pt>
-File: FIGS/sites.png Graphic file (type png)
- <use FIGS/sites.png>
-Package pdftex.def Info: FIGS/sites.png used on input line 93.
-(pdftex.def)             Requested size: 150.32503pt x 120.25854pt.
-
-<FIGS/voronoi.png, id=29, 462.97969pt x 370.38374pt>
-File: FIGS/voronoi.png Graphic file (type png)
- <use FIGS/voronoi.png>
-Package pdftex.def Info: FIGS/voronoi.png used on input line 101.
-(pdftex.def)             Requested size: 150.32503pt x 120.26025pt.
-
-<FIGS/cell.png, id=30, 469.755pt x 373.395pt>
-File: FIGS/cell.png Graphic file (type png)
- <use FIGS/cell.png>
-Package pdftex.def Info: FIGS/cell.png used on input line 105.
-(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
-
-<FIGS/clippedLine.png, id=31, 469.755pt x 373.395pt>
-File: FIGS/clippedLine.png Graphic file (type png)
-
-<use FIGS/clippedLine.png>
-Package pdftex.def Info: FIGS/clippedLine.png used on input line 109.
-(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
- <FIGS/subpixel.png, id=32, 469.755pt x 373.395pt>
-File: FIGS/subpixel.png Graphic file (type png)
-
-<use FIGS/subpixel.png>
-Package pdftex.def Info: FIGS/subpixel.png used on input line 113.
-(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
- <FIGS/inandout.png, id=33, 469.755pt x 373.395pt>
-File: FIGS/inandout.png Graphic file (type png)
-
-<use FIGS/inandout.png>
-Package pdftex.def Info: FIGS/inandout.png used on input line 117.
-(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
- <FIGS/integral.png, id=34, 469.755pt x 373.395pt>
-File: FIGS/integral.png Graphic file (type png)
-
-<use FIGS/integral.png>
-Package pdftex.def Info: FIGS/integral.png used on input line 121.
-(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
- [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/w66_000/Document
-s/GitHub/stippling/report/FIGS/intensity.png> <C:/Users/w66_000/Documents/GitHu
-b/stippling/report/FIGS/sites.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 137--142
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
 
  []
 
-[2 <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/voronoi.png> <C:/Us
-ers/w66_000/Documents/GitHub/stippling/report/FIGS/cell.png> <C:/Users/w66_000/
-Documents/GitHub/stippling/report/FIGS/clippedLine.png> <C:/Users/w66_000/Docum
-ents/GitHub/stippling/report/FIGS/subpixel.png> <C:/Users/w66_000/Documents/Git
-Hub/stippling/report/FIGS/inandout.png> <C:/Users/w66_000/Documents/GitHub/stip
-pling/report/FIGS/integral.png>]
-No file report.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 158.
-[3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 158.
- (C:\Users\w66_000\Documents\GitHub\stippling\report\report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 158.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 158.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 95.
+<FIGS/intensity.png, id=30, 321.2pt x 236.885pt>
+File: FIGS/intensity.png Graphic file (type png)
+ <use FIGS/intensity.png>
+Package pdftex.def Info: FIGS/intensity.png used on input line 111.
+(pdftex.def)             Requested size: 150.32503pt x 110.86606pt.
+
+<FIGS/sites.png, id=31, 602.25pt x 481.8pt>
+File: FIGS/sites.png Graphic file (type png)
+ <use FIGS/sites.png>
+Package pdftex.def Info: FIGS/sites.png used on input line 115.
+(pdftex.def)             Requested size: 150.32503pt x 120.25854pt.
+
+<FIGS/voronoi.png, id=33, 462.97969pt x 370.38374pt>
+File: FIGS/voronoi.png Graphic file (type png)
+ <use FIGS/voronoi.png>
+Package pdftex.def Info: FIGS/voronoi.png used on input line 123.
+(pdftex.def)             Requested size: 150.32503pt x 120.26025pt.
+
+<FIGS/cell.png, id=34, 469.755pt x 373.395pt>
+File: FIGS/cell.png Graphic file (type png)
+ <use FIGS/cell.png>
+Package pdftex.def Info: FIGS/cell.png used on input line 127.
+(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
+
+<FIGS/clippedLine.png, id=35, 469.755pt x 373.395pt>
+File: FIGS/clippedLine.png Graphic file (type png)
+
+<use FIGS/clippedLine.png>
+Package pdftex.def Info: FIGS/clippedLine.png used on input line 131.
+(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
+ <FIGS/subpixel.png, id=36, 469.755pt x 373.395pt>
+File: FIGS/subpixel.png Graphic file (type png)
+
+<use FIGS/subpixel.png>
+Package pdftex.def Info: FIGS/subpixel.png used on input line 135.
+(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
+ <FIGS/inandout.png, id=37, 469.755pt x 373.395pt>
+File: FIGS/inandout.png Graphic file (type png)
+
+<use FIGS/inandout.png>
+Package pdftex.def Info: FIGS/inandout.png used on input line 139.
+(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
+ <FIGS/integral.png, id=38, 469.755pt x 373.395pt>
+File: FIGS/integral.png Graphic file (type png)
+
+<use FIGS/integral.png>
+Package pdftex.def Info: FIGS/integral.png used on input line 143.
+(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 159--164
+
+ []
+
+[2 <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/intensity.png> <C:/
+Users/w66_000/Documents/GitHub/stippling/report/FIGS/sites.png>]
+(C:\Users\w66_000\Documents\GitHub\stippling\report\report.bbl
+(C:\Users\w66_000\Documents\GitHub\stippling\report\report.brf)
+\tf@brf=\write5
+ [3 <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/voronoi.png> <C:/U
+sers/w66_000/Documents/GitHub/stippling/report/FIGS/cell.png> <C:/Users/w66_000
+/Documents/GitHub/stippling/report/FIGS/clippedLine.png> <C:/Users/w66_000/Docu
+ments/GitHub/stippling/report/FIGS/subpixel.png> <C:/Users/w66_000/Documents/Gi
+tHub/stippling/report/FIGS/inandout.png> <C:/Users/w66_000/Documents/GitHub/sti
+ppling/report/FIGS/integral.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
+
+(C:\Users\w66_000\Documents\GitHub\stippling\report\report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 2379562B288F88BB2B3BEFFA1E07AC68;322.
+Package rerunfilecheck Info: File `report.brf' has not changed.
+(rerunfilecheck)             Checksum: 5ACE1C5036625546DE6BE9C50B1DF7D4;149.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 158.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
  ) 
 Here is how much of TeX's memory you used:
- 7305 strings out of 493921
- 104915 string characters out of 3144870
- 192444 words of memory out of 3000000
- 10468 multiletter control sequences out of 15000+200000
+ 7331 strings out of 493921
+ 105431 string characters out of 3144870
+ 193558 words of memory out of 3000000
+ 10478 multiletter control sequences out of 15000+200000
  11390 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 32i,8n,28p,386b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,8n,28p,437b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/P
@@ -541,9 +549,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on report.pdf (3 pages, 269359 bytes).
+Output written on report.pdf (4 pages, 284239 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

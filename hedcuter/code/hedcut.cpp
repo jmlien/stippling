@@ -29,7 +29,7 @@ bool Hedcut::build(cv::Mat & input_image, int n)
 	cvt.iteration_limit = this->cvt_iteration_limit;
 	cvt.max_site_displacement = this->max_site_displacement;
 	cvt.debug = this->debug;
-
+	
 	//compute weighted centroidal voronoi tessellation
 	cvt.compute_weighted_cvt(input_image, pts);
 
