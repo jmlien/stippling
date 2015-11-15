@@ -1,0 +1,7 @@
+7500
+
+SIZE : 
+Xsmall	500 * 333
+Small	750 * 499
+Middle	1500 * 997
+Large	3000 * 1993

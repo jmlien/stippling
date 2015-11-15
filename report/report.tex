@@ -64,29 +64,40 @@
 \subsection{hedcuter method}
 Hedcuter method consists of two main steps which is slightly different version from Secord's method\cite{secord02}:
 \begin{enumerate}
-\item Sample initial points $X=\{\mathbf{x_1, x_2, x_3, \cdots}\}$
+\item Sample initial points $X=\{\mathbf{x_1, x_2, x_3, \cdots, x_n}\}$
 \item Loop while the displacements don't exceed maximum site displacement and the number of iterations doesn't exceed maximum number of iterations,
 \begin{enumerate}
-\item Map the image value at $\mathbf{x_i}$ to stipple level $t$
-\item Propagate the stipple level at $\mathbf{x_i}$ to its neighbor  
-\item Compute the centroids%%%%% copy stipples?
+\item Map the image value at $\mathbf{x_i}$ to stipple level $t_{\mathbf{x_i}}$
+\item Propagate the stipple level at $\mathbf{x_i}$ to its neighbor
+\item Compute the centroids $\mathbf{C_i}$
 \item Move each points $\mathbf{x_i}$ to its new centers of a cell $\mathbf{C_i}$
 \end{enumerate}
-\end{enumerate}
-%%%%% author's idea?
-%%%%%Sampling
-Sampling\\\\
-%2. Loop
-In the loop, the algorithm keeps mapping image using the location of a point(which corresponds to the coordinates of a pixel) as unique identification. This mapping image contains stipple level $t$ at each points with the number of levels $l$. 
-Unlike Secord's method\cite{secord02}, hedcuter method first computes and stores stipple level $t$ only at given points using Eq. \ref{eq:distance}. Next, it sort the stipples with stipple level, $x$ values, and $y$ values. 
-\begin{equation}\label{eq:distance}
-t=\frac{l-I(\mathbf{x})*\rho(\mathbf{x})}{l},\:\:where\:\:\rho(\mathbf{x})=1\:\:\forall x %%%%% More details about Intensity?
-\end{equation}
+\end{enumerate}%%%%% author's idea?
+%Sampling
+First of all, hedcuter samples $n$ points that spread evenly in black area. 
+The algorithm samples a uniformly distributed random point for whole area of given image and test if this random point has high probability based on gaussian distribution. 
+If that is the case, it means that the value of the random point is close to black. The algorithm keeps this point as an initial point and this process is repeated until generating $n$ points.
 
-After propagation, hedcuter method collect pixels covered with a voronoi cell. 
+%Loop
+In the loop, the algorithm keeps mapping image using the location of a point(which corresponds to the coordinates of a pixel) as unique identification. 
+This mapping image contains stipple level $t$ at each points with the number of levels $l$.
+Unlike Secord's method\cite{secord02}, hedcuter method first computes and stores stipple level $t$ only at given points using Eq. \ref{eq:distance}. 
+\begin{equation}\label{eq:distance}
+t_{\mathbf{x}}=\frac{l-I(\mathbf{x})}{l}%%%%% More details about Intensity? Intensity and density function? Is this 1 means rho?
+\end{equation}
+Next, it sorts the stipples with stipple level, $x$ values, and $y$ values in ascending order. 
+Stipple level has a highest priority and $y$ values has a lowest priority in sorting. 
+Starting from a stipple which has the lowest stipple level, check the neighbors of the stipple.
+A stipple level $t_{new}$ of a neighbor $nb$ can be newly computed from the current stipple $c$ based on Eq. \ref{eq:neigborDistance}.
+\begin{equation}\label{eq:neigborDistance}
+t_{new}=t_{c} + t_{nb}
+\end{equation}
+In case that a neighbor has a lower stipple level than stipple level it already has, hedcut method keeps new stipple level and add this neighbor as stipple.  
+After propagation of stipple level through all pixels, hedcuter method collect pixels which is affected by given points, so called coverage of a site. 
+When computing the new center of a stipple, it compute weighted average of stipple levels in coverage. 
 
 \subsection{voronoi method}
-A flow of voronoi method basically follows Lloyd's method\cite{Okabe:1992:STC:135734}, which as follows : \\ 
+A flow of voronoi method basically follows Lloyd's method\cite{Okabe:1992:STC:135734}, which as follows : \\
 when the centroid of a region is defined as
 \begin{equation}\label{eq:centroid}
 \mathbf{C_i}=\frac{\int_{A}\mathbf{x}\rho(\mathbf{x})dA}{\int_{A}\rho(\mathbf{x})dA},
@@ -126,8 +137,8 @@ First, voronoi method samples points on the image randomly(Fig. \ref{fig:samples
     \label{fig:cell}
   }\hspace{-3mm}
    \subfigure[]{
-    \includegraphics[width=0.32\textwidth]{FIGS/clippedLine.png}
-    \label{fig:subpixel}
+    \includegraphics[width=0.32\textwidth]{FIGS/clippingLine.png}
+    \label{fig:clippingline}
   }\\
   \subfigure[]{
     \includegraphics[width=0.32\textwidth]{FIGS/subpixel.png}
@@ -145,7 +156,7 @@ First, voronoi method samples points on the image randomly(Fig. \ref{fig:samples
 \end{figure*}
 Next, voronoi method computes the voronoi region of given sample points(Fig. \ref{fig:voronoi}).
 After creating voronoi diagram of given points, the algorithm computes the centroid of a cell iteratively looping through all these points.
-For example, with a given cell in Fig. \ref{fig:cell}, voronoi method calculates the line which is the extension of voronoi edge and is called clipping line.
+For example, with a given cell in Fig. \ref{fig:cell}, voronoi method calculates the line which is the extension of voronoi edge and is called clipping line(Fig. \ref{fig:clippingline}).
 When two end points of voronoi edge are $\mathbf{x_1}=(x_1,y_1)$ and $\mathbf{x_2}=(x_2,y_2)$, the equation of clipping line is
 \begin{equation}\label{eq:clippingLine}
 \begin{gathered}

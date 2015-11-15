@@ -1,4 +1,5 @@
 #include "hedcut.h"
+#include <time.h>
 
 Hedcut::Hedcut()
 {
@@ -30,8 +31,14 @@ bool Hedcut::build(cv::Mat & input_image, int n)
 	cvt.max_site_displacement = this->max_site_displacement;
 	cvt.debug = this->debug;
 	
+	clock_t startTime, endTime;
+	startTime = clock();
+	
 	//compute weighted centroidal voronoi tessellation
 	cvt.compute_weighted_cvt(input_image, pts);
+	
+	endTime = clock();
+	std::cout << "Total time: "<< ((double)(endTime - startTime)) / CLOCKS_PER_SEC << std::endl;
 
 	//create disks
 	create_disks(input_image, cvt);
