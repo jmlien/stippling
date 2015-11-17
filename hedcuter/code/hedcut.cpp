@@ -21,9 +21,12 @@ Hedcut::Hedcut()
 
 bool Hedcut::build(cv::Mat & input_image, int n)
 {
+	cv::Mat grayscale;
+	cv::cvtColor(input_image, grayscale, CV_BGR2GRAY);
+
 	//sample n points
 	std::vector<cv::Point2d> pts;
-	sample_initial_points(input_image, n, pts);
+	sample_initial_points(grayscale, n, pts);
 
 	//initialize cvt
 	CVT cvt;
@@ -35,14 +38,13 @@ bool Hedcut::build(cv::Mat & input_image, int n)
 	startTime = clock();
 	
 	//compute weighted centroidal voronoi tessellation
-	cvt.compute_weighted_cvt(input_image, pts);
+	cvt.compute_weighted_cvt(grayscale, pts);
 	
 	endTime = clock();
 	std::cout << "Total time: "<< ((double)(endTime - startTime)) / CLOCKS_PER_SEC << std::endl;
 
 	//create disks
 	create_disks(input_image, cvt);
-
 
 	return true;
 }
@@ -88,6 +90,9 @@ void Hedcut::sample_initial_points(cv::Mat & img, int n, std::vector<cv::Point2d
 
 void Hedcut::create_disks(cv::Mat & img, CVT & cvt)
 {
+	cv::Mat grayscale;
+	cv::cvtColor(img, grayscale, CV_BGR2GRAY);
+
 	disks.clear();
 
 	//create disks from cvt
@@ -95,17 +100,24 @@ void Hedcut::create_disks(cv::Mat & img, CVT & cvt)
 	{
 		//compute avg intensity
 		unsigned int total = 0;
+		unsigned int r = 0, g = 0, b = 0;
 		for (auto & pix : cell.coverage)
 		{
-			total += img.at<uchar>(pix.x, pix.y);
+			total += grayscale.at<uchar>(pix.x, pix.y);
+			r += img.at<cv::Vec3b>(pix.x, pix.y)[2];
+			g += img.at<cv::Vec3b>(pix.x, pix.y)[1];
+			b += img.at<cv::Vec3b>(pix.x, pix.y)[0];
 		}
 		float avg_v = floor(total * 1.0f/ cell.coverage.size());
-
+		r = floor(r / cell.coverage.size());
+		g = floor(g / cell.coverage.size());
+		b = floor(b / cell.coverage.size());
+		
 		//create a disk
 		HedcutDisk disk;
 		disk.center.x = cell.site.y; //x = col
 		disk.center.y = cell.site.x; //y = row
-		disk.color = (black_disk) ? cv::Scalar::all(0) : cv::Scalar::all(avg_v);
+		disk.color = (black_disk) ? cv::Scalar::all(0) : cv::Scalar(r, g, b, 0.0);
 		disk.radius = (uniform_disk_size) ? disk_size : (100 * disk_size / (avg_v + 100));
 
 		//remember

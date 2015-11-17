@@ -51,7 +51,7 @@ int main(int argc, char ** argv)
 		else img_filename = argv[i];
 	}
 
-	cv::Mat image = cv::imread(img_filename.c_str(), CV_LOAD_IMAGE_GRAYSCALE);   // Read the file
+	cv::Mat image = cv::imread(img_filename.c_str(), CV_LOAD_IMAGE_COLOR);   // Read the file
 
 	if (!image.data)                              // Check for invalid input
 	{
@@ -88,6 +88,7 @@ int main(int argc, char ** argv)
 
 	for (auto& disk : hedcut.getDisks())
 	{
+		
 		uchar r = disk.color.val[0];
 		uchar g = disk.color.val[1];
 		uchar b = disk.color.val[2];

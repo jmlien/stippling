@@ -8,6 +8,7 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{pseudocode}
+\usepackage{svg}
 \usepackage{subfigure}
 \usepackage{url}
 \usepackage[backref, colorlinks=true, citecolor=red, urlcolor=blue, pdfauthor={Jyh-Ming Lien}]{hyperref}
@@ -74,27 +75,27 @@ Hedcuter method consists of two main steps which is slightly different version f
 \end{enumerate}
 \end{enumerate}%%%%% author's idea?
 %Sampling
-First of all, hedcuter samples $n$ points that spread evenly in black area. 
-The algorithm samples a uniformly distributed random point for whole area of given image and test if this random point has high probability based on gaussian distribution. 
+First of all, hedcuter samples $n$ points that spread evenly in black area.
+The algorithm samples a uniformly distributed random point for whole area of given image and test if this random point has high probability based on gaussian distribution.
 If that is the case, it means that the value of the random point is close to black. The algorithm keeps this point as an initial point and this process is repeated until generating $n$ points.
 
 %Loop
-In the loop, the algorithm keeps mapping image using the location of a point(which corresponds to the coordinates of a pixel) as unique identification. 
+In the loop, the algorithm keeps mapping image using the location of a point(which corresponds to the coordinates of a pixel) as unique identification.
 This mapping image contains stipple level $t$ at each points with the number of levels $l$.
-Unlike Secord's method\cite{secord02}, hedcuter method first computes and stores stipple level $t$ only at given points using Eq. \ref{eq:distance}. 
+Unlike Secord's method\cite{secord02}, hedcuter method first computes and stores stipple level $t$ only at given points using Eq. \ref{eq:distance}.
 \begin{equation}\label{eq:distance}
 t_{\mathbf{x}}=\frac{l-I(\mathbf{x})}{l}%%%%% More details about Intensity? Intensity and density function? Is this 1 means rho?
 \end{equation}
-Next, it sorts the stipples with stipple level, $x$ values, and $y$ values in ascending order. 
-Stipple level has a highest priority and $y$ values has a lowest priority in sorting. 
+Next, it sorts the stipples with stipple level, $x$ values, and $y$ values in ascending order.
+Stipple level has a highest priority and $y$ values has a lowest priority in sorting.
 Starting from a stipple which has the lowest stipple level, check the neighbors of the stipple.
 A stipple level $t_{new}$ of a neighbor $nb$ can be newly computed from the current stipple $c$ based on Eq. \ref{eq:neigborDistance}.
 \begin{equation}\label{eq:neigborDistance}
 t_{new}=t_{c} + t_{nb}
 \end{equation}
-In case that a neighbor has a lower stipple level than stipple level it already has, hedcut method keeps new stipple level and add this neighbor as stipple.  
-After propagation of stipple level through all pixels, hedcuter method collect pixels which is affected by given points, so called coverage of a site. 
-When computing the new center of a stipple, it compute weighted average of stipple levels in coverage. 
+In case that a neighbor has a lower stipple level than stipple level it already has, hedcut method keeps new stipple level and add this neighbor as stipple.
+After propagation of stipple level through all pixels, hedcuter method collect pixels which is affected by given points, so called coverage of a site.
+When computing the new center of a stipple, it compute weighted average of stipple levels in coverage.
 
 \subsection{voronoi method}
 A flow of voronoi method basically follows Lloyd's method\cite{Okabe:1992:STC:135734}, which as follows : \\
@@ -182,8 +183,6 @@ Substituting the results of Eq. \ref{eq:density} to Eq. \ref{eq:centroid}, we ca
 which satisfies that $x_c=\frac{\int x\cdot I(\mathbf{x_g})}{\int I(\mathbf{x_g})}$ and $y_c=\frac{\int y\cdot I(\mathbf{x_g})}{\int I(\mathbf{x_g})}$.%%%%% writing about radius?
 This new centroids will be fed as sites into creating voronoi diagram step. Voronoi method repeats creating voronoi diagram and computing the centroid repeatedly until the average of displacement between points $\mathbf{x_i}$ and centroids $\mathbf{C_i}$ is small enough.
 %%%%% contents about radius?
-\section{Comparison of the two methods}
-
 \section{Improvement of hedcuter method}
 
 \bibliographystyle{plain}

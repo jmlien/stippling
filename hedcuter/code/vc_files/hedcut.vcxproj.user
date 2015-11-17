@@ -6,7 +6,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommandArguments>-debug -black -n 7500 -iteration 100 -radius 5  cat-large.png</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-debug -n 7500 -iteration 100 -radius 5  diamond.png</LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerWorkingDirectory>$(ProjectDir)\..\..\..\images</LocalDebuggerWorkingDirectory>
     <LocalDebuggerEnvironment>

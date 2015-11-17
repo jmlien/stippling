@@ -25,6 +25,7 @@ void CVT::vor_GPU(cv::Mat &  img)
 
 	////propagate
 	//while (open.empty() == false)
+
 	//{
 	//	//
 	//	std::pop_heap(open.begin(), open.end(), compareCell);
