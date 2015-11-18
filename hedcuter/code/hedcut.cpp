@@ -1,6 +1,7 @@
 #include "hedcut.h"
 #include <time.h>
 
+
 Hedcut::Hedcut()
 {
 	//control flags
@@ -14,7 +15,8 @@ Hedcut::Hedcut()
 	cvt_iteration_limit = 100; //max number of iterations when building cvf
 	max_site_displacement = 1.01f; //max tolerable site displacement in each iteration. 
 	average_termination = false;
-	//subpixel_level = 0;
+	gpu = false;
+	subpixels = 1;
 
 	debug = false;
 }
@@ -35,15 +37,19 @@ bool Hedcut::build(cv::Mat & input_image, int n)
 	cvt.iteration_limit = this->cvt_iteration_limit;
 	cvt.max_site_displacement = this->max_site_displacement;
 	cvt.average_termination = this->average_termination;
-	//cvt.subpixel_level = this->subpixel_level;
+	cvt.gpu = this->gpu;
+	cvt.subpixels = this->subpixels;
 	cvt.debug = this->debug;
-	
+
 	clock_t startTime, endTime;
 	startTime = clock();
 	
 	//compute weighted centroidal voronoi tessellation
-	cvt.compute_weighted_cvt(grayscale, pts);
-	
+	if (cvt.gpu)
+		cvt.compute_weighted_cvt_GPU(grayscale, pts);
+	else
+		cvt.compute_weighted_cvt(grayscale, pts);
+
 	endTime = clock();
 	std::cout << "Total time: "<< ((double)(endTime - startTime)) / CLOCKS_PER_SEC << std::endl;
 
@@ -105,8 +111,9 @@ void Hedcut::create_disks(cv::Mat & img, CVT & cvt)
 		//compute avg intensity
 		unsigned int total = 0;
 		unsigned int r = 0, g = 0, b = 0;
-		for (auto & pix : cell.coverage)
+		for (auto & resizedPix : cell.coverage)
 		{
+			cv::Point pix(resizedPix.x / subpixels, resizedPix.y / subpixels);
 			total += grayscale.at<uchar>(pix.x, pix.y);
 			r += img.at<cv::Vec3b>(pix.x, pix.y)[2];
 			g += img.at<cv::Vec3b>(pix.x, pix.y)[1];

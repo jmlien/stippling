@@ -40,9 +40,10 @@ public:
 	//cvf control flags
 	int cvt_iteration_limit; //max number of iterations when building cvf
 	float max_site_displacement; //max tolerable site displacement in each iteration. 
-	bool average_termination;
+	bool average_termination;	//ture when the algorithm terminates with average displacement, not max displacement
+	bool gpu;					//true when using GPU acceleration
 	
-	//int subpixel_level;		//the level of subpixels per a pixel. The number of subpixel is 2^(subpixel_level) per a pixel. 
+	int subpixels;		//the number of subpixels per a pixel
 							
 	bool debug; //if true, debug information will be excuted
 

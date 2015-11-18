@@ -15,9 +15,14 @@ bool compareCell(const std::pair<float, cv::Point>& p1, const std::pair<float, c
 //buil the VOR once
 void CVT::vor(cv::Mat &  img)
 {
-	cv::Mat dist(img.size(), CV_32F, cv::Scalar::all(FLT_MAX));
-	cv::Mat root(img.size(), CV_16U, cv::Scalar::all(USHRT_MAX));
-	cv::Mat visited(img.size(), CV_8U, cv::Scalar::all(0));
+	//Generate virtual high resolution image
+	cv::Size res(img.size().width * subpixels, img.size().height * subpixels);
+	cv::Mat resizedImg;
+	resize(img, resizedImg, cv::Size(res.width, res.height));
+	
+	cv::Mat dist(res, CV_32F, cv::Scalar::all(FLT_MAX));
+	cv::Mat root(res, CV_16U, cv::Scalar::all(USHRT_MAX));
+	cv::Mat visited(res, CV_8U, cv::Scalar::all(0));
 	
 
 	//init
@@ -25,18 +30,22 @@ void CVT::vor(cv::Mat &  img)
 	ushort site_id = 0;
 	for (auto& c : this->cells)
 	{
+		//Redirect input site to the position in resized Image
+		c.site.x *= subpixels;
+		c.site.y *= subpixels;
+
 		if (debug)
 		{
-			if (c.site.x<0 || c.site.x>img.size().height)
+			if (c.site.x<0 || c.site.x>res.height)
 				std::cout << "! Warning: c.site.x=" << c.site.x << std::endl;
 
-			if (c.site.y<0 || c.site.y>img.size().width)
+			if (c.site.y<0 || c.site.y>res.width)
 				std::cout << "! Warning: c.site.y=" << c.site.y << std::endl;
 		}
 
 
 		cv::Point pix((int)c.site.x, (int)c.site.y);
-		float d = color2dist(img, pix);
+		float d = color2dist(resizedImg, pix);
 		dist.at<float>(pix.x, pix.y) = d;
 		root.at<ushort>(pix.x, pix.y) = site_id++;
 		open.push_back(std::make_pair(d, pix));
@@ -63,14 +72,14 @@ void CVT::vor(cv::Mat &  img)
 		for (int dx =-1; dx <= 1; dx++) //x is row
 		{
 			int x = cpos.x + dx;
-			if (x < 0 || x >= img.size().height) continue;
+			if (x < 0 || x >= res.height) continue;
 			for (int dy = -1; dy <= 1; dy++) //y is column
 			{
 				if (dx == 0 && dy == 0) continue; //itself...
 
 				int y = cpos.y + dy;
-				if (y < 0 || y >= img.size().width) continue;
-				float newd = dist.at<float>(cpos.x, cpos.y) + color2dist(img, cv::Point(x, y));
+				if (y < 0 || y >= res.width) continue;
+				float newd = dist.at<float>(cpos.x, cpos.y) + color2dist(resizedImg, cv::Point(x, y));
 				float oldd = dist.at<float>(x, y);
 
 				if (newd < oldd)
@@ -85,9 +94,9 @@ void CVT::vor(cv::Mat &  img)
 	}//end while
 
 	//collect cells
-	for (int x = 0; x < img.size().height; x++)
+	for (int x = 0; x < res.height; x++)
 	{
-		for (int y = 0; y < img.size().width; y++)
+		for (int y = 0; y < res.width; y++)
 		{
 			ushort rootid = root.at<ushort>(x, y);
 			this->cells[rootid].coverage.push_back(cv::Point(x,y));
@@ -119,7 +128,7 @@ void CVT::vor(cv::Mat &  img)
 
 		for (auto& c : this->cells)
 		{
-			cv::circle(adjMap, cv::Point(c.site.y, c.site.x), 2, CV_RGB(0, 0, 255), -1);
+			cv::circle(adjMap, cv::Point( c.site.y, c.site.x ), 2, CV_RGB(0, 0, 255), -1);
 		}
 
 		cv::imshow("CVT", adjMap);
@@ -144,6 +153,7 @@ void CVT::compute_weighted_cvt(cv::Mat &  img, std::vector<cv::Point2d> & sites)
 	{
 		vor(img); //compute voronoi
 		max_dist_moved = move_sites(img);
+
 		if (debug) std::cout << "[" << iteration << "] max dist moved = " << max_dist_moved << std::endl;
 		iteration++;
 	} while (max_dist_moved>max_site_displacement && iteration < this->iteration_limit);

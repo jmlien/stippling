@@ -22,6 +22,7 @@
 #include <opencv2/features2d/features2d.hpp>
 #include "opencv2/contrib/contrib.hpp"
 
+bool compareCell(const std::pair<float, cv::Point>& p1, const std::pair<float, cv::Point>& p2);
 
 struct VorCell
 {
@@ -46,7 +47,7 @@ public:
 		iteration_limit = 100;
 		max_site_displacement = 1.01f;
 		average_termination = false;
-//		subpixel_level = false;
+		subpixels = 1;
 		debug = false;
 	}
 
@@ -61,7 +62,8 @@ public:
 	int iteration_limit;       //max number of iterations when building cvf
 	float max_site_displacement; //max tolerable site displacement in each iteration. 
 	bool average_termination;
-	///int subpixel_level;
+	bool gpu;
+	int subpixels;
 
 	bool debug;
 
@@ -84,12 +86,17 @@ private:
 	{
 		if (cell.coverage.empty()) std::cout << "! Error: cell.coverage " << cell.site << " size = " << cell.coverage.size() << std::endl;
 
+		//Generate virtual high resolution image
+		cv::Size res(img.size().width * subpixels, img.size().height * subpixels);
+		cv::Mat resizedImg;
+		resize(img, resizedImg, cv::Size(res.width, res.height));
+
 		//compute weighted average
 		float total = 0;
 		cv::Point2d new_pos(0, 0);
 		for (auto& c : cell.coverage)
 		{
-			float d = color2dist(img, c);
+			float d = color2dist(resizedImg, c);
 			new_pos.x += d*c.x;
 			new_pos.y += d*c.y;
 			total += d;
@@ -99,8 +106,12 @@ private:
 		new_pos.x /= total;
 		new_pos.y /= total;
 
+		//Redirect output site to the position in original image
+		new_pos.x /= subpixels;
+		new_pos.y /= subpixels;
+
 		//update
-		float dist = fabs(new_pos.x - cell.site.x) + fabs(new_pos.y - cell.site.y); //manhattan dist
+		float dist = fabs(new_pos.x - cell.site.x/subpixels) + fabs(new_pos.y - cell.site.y/subpixels); //manhattan dist
 		cell.site = new_pos;
 
 		//done
