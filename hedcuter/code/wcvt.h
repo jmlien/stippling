@@ -45,6 +45,8 @@ public:
 	{
 		iteration_limit = 100;
 		max_site_displacement = 1.01f;
+		average_termination = false;
+//		subpixel_level = false;
 		debug = false;
 	}
 
@@ -58,6 +60,9 @@ public:
 
 	int iteration_limit;       //max number of iterations when building cvf
 	float max_site_displacement; //max tolerable site displacement in each iteration. 
+	bool average_termination;
+	///int subpixel_level;
+
 	bool debug;
 
 private:
@@ -90,7 +95,6 @@ private:
 			total += d;
 		}
 
-
 		//normalize
 		new_pos.x /= total;
 		new_pos.y /= total;
@@ -107,14 +111,27 @@ private:
 	inline float move_sites(cv::Mat &  img)
 	{
 		float max_offset = 0;
-		for (auto& cell : this->cells)
+		if (average_termination)
 		{
-			//cout << "coverage size=" << cvt.cells[607].coverage.size() << endl;
-			float offset = move_sites(img, cell);
-			if (offset > max_offset)
-				max_offset = offset;
-		}
+			for (auto& cell : this->cells)
+			{
+				//cout << "coverage size=" << cvt.cells[607].coverage.size() << endl;
+				float offset = move_sites(img, cell);
+				max_offset += offset;
+			}
 
+			max_offset /= this->cells.size();
+		}
+		else
+		{
+			for (auto& cell : this->cells)
+			{
+				//cout << "coverage size=" << cvt.cells[607].coverage.size() << endl;
+				float offset = move_sites(img, cell);
+				if (offset > max_offset)
+					max_offset = offset;
+			}
+		}
 		return max_offset;
 	}
 };

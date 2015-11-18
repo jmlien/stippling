@@ -8,7 +8,6 @@
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{pseudocode}
-\usepackage{svg}
 \usepackage{subfigure}
 \usepackage{url}
 \usepackage[backref, colorlinks=true, citecolor=red, urlcolor=blue, pdfauthor={Jyh-Ming Lien}]{hyperref}
@@ -184,7 +183,90 @@ which satisfies that $x_c=\frac{\int x\cdot I(\mathbf{x_g})}{\int I(\mathbf{x_g}
 This new centroids will be fed as sites into creating voronoi diagram step. Voronoi method repeats creating voronoi diagram and computing the centroid repeatedly until the average of displacement between points $\mathbf{x_i}$ and centroids $\mathbf{C_i}$ is small enough.
 %%%%% contents about radius?
 \section{Improvement of hedcuter method}
-
+%Size
+\begin{figure*}[hbt]
+ \centering
+ \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/size/cat-xsmall.png}
+    \label{fig:cat_xs}
+  }\hspace{-3mm}
+  \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/size/cat-small.png}
+    \label{fig:cat_s}
+  }\hspace{-3mm}
+  \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/size/cat-middle.png}
+    \label{fig:cat_s}
+  }\hspace{-3mm}
+  \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/size/cat-large.png}
+    \label{fig:cat_s}
+  }\hspace{-3mm}
+    \caption{A part of given image and sample points. \label{fig:cat_size}}
+\end{figure*}
+%Brightness
+\begin{figure*}[hbt]
+ \centering
+ \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/brightness/cat-b-40.png}
+    \label{fig:cat_b-40}
+  }\hspace{-3mm}
+  \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/brightness/cat-b-20.png}
+    \label{fig:cat_b-20}
+  }\hspace{-3mm}
+  \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/brightness/cat-b+20.png}
+    \label{fig:cat_b+20}
+  }\hspace{-3mm}
+  \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/brightness/cat-b+40.png}
+    \label{fig:cat_b+40}
+  }\hspace{-3mm}
+    \caption{A part of given image and sample points. \label{fig:cat_brightness}}
+\end{figure*}
+%Contrast
+\begin{figure*}[hbt]
+ \centering
+ \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/contrast/cat-c-40.png}
+    \label{fig:cat_c-40}
+  }\hspace{-3mm}
+  \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/contrast/cat-c-20.png}
+    \label{fig:cat_c-20}
+  }\hspace{-3mm}
+  \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/contrast/cat-c+20.png}
+    \label{fig:cat_c+20}
+  }\hspace{-3mm}
+  \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/contrast/cat-c+40.png}
+    \label{fig:cat_c+40}
+  }\hspace{-3mm}
+    \caption{A part of given image and sample points. \label{fig:cat_contrast}}
+\end{figure*}
+%sharpness
+\begin{figure*}[hbt]
+ \centering
+ \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/sharpness/cat-s-50.png}
+    \label{fig:cat_s-40}
+  }\hspace{-3mm}
+  \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/sharpness/cat-s-25.png}
+    \label{fig:cat_s-20}
+  }\hspace{-3mm}
+  \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/sharpness/cat-s+25.png}
+    \label{fig:cat_s+20}
+  }\hspace{-3mm}
+  \subfigure[]{
+    \includegraphics[width=0.22\textwidth]{FIGS/sharpness/cat-s+50.png}
+    \label{fig:cat_s+40}
+  }\hspace{-3mm}
+    \caption{A part of given image and sample points. \label{fig:cat_sharpness}}
+\end{figure*}
 \bibliographystyle{plain}
 \bibliography{report}
 

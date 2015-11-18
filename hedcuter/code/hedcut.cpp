@@ -13,6 +13,8 @@ Hedcut::Hedcut()
 	//cvt control flags
 	cvt_iteration_limit = 100; //max number of iterations when building cvf
 	max_site_displacement = 1.01f; //max tolerable site displacement in each iteration. 
+	average_termination = false;
+	//subpixel_level = 0;
 
 	debug = false;
 }
@@ -32,6 +34,8 @@ bool Hedcut::build(cv::Mat & input_image, int n)
 	CVT cvt;
 	cvt.iteration_limit = this->cvt_iteration_limit;
 	cvt.max_site_displacement = this->max_site_displacement;
+	cvt.average_termination = this->average_termination;
+	//cvt.subpixel_level = this->subpixel_level;
 	cvt.debug = this->debug;
 	
 	clock_t startTime, endTime;

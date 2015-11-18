@@ -45,6 +45,8 @@ int main(int argc, char ** argv)
 			else if (string(argv[i]) == "-iteration" && i + 1 < argc) hedcut.cvt_iteration_limit = atoi(argv[++i]);
 			else if (string(argv[i]) == "-maxD" && i + 1 < argc) hedcut.max_site_displacement = atof(argv[++i]);
 			else if (string(argv[i]) == "-black" && i + 1 < argc) hedcut.black_disk = true;
+			else if (string(argv[i]) == "-avg" && i + 1 < argc) hedcut.average_termination = true;
+			//else if (string(argv[i]) == "-subpixel" && i + 1 < argc) hedcut.subpixel_level = atoi(argv[++i]);
 			else
 				cerr << "! Error: Unknown flag " << argv[i] << ".  Ignored." << endl;
 		}
@@ -88,7 +90,6 @@ int main(int argc, char ** argv)
 
 	for (auto& disk : hedcut.getDisks())
 	{
-		
 		uchar r = disk.color.val[0];
 		uchar g = disk.color.val[1];
 		uchar b = disk.color.val[2];

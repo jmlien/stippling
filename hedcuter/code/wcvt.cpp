@@ -15,10 +15,10 @@ bool compareCell(const std::pair<float, cv::Point>& p1, const std::pair<float, c
 //buil the VOR once
 void CVT::vor(cv::Mat &  img)
 {
-	cv::Mat dist(img.size(), CV_32F, cv::Scalar::all(FLT_MAX)); //an image with infinity distance
-	cv::Mat root(img.size(), CV_16U, cv::Scalar::all(USHRT_MAX)); //an image of root index
-	cv::Mat visited(img.size(), CV_8U, cv::Scalar::all(0)); //all unvisited
-
+	cv::Mat dist(img.size(), CV_32F, cv::Scalar::all(FLT_MAX));
+	cv::Mat root(img.size(), CV_16U, cv::Scalar::all(USHRT_MAX));
+	cv::Mat visited(img.size(), CV_8U, cv::Scalar::all(0));
+	
 
 	//init
 	std::vector< std::pair<float, cv::Point> > open;
@@ -39,7 +39,7 @@ void CVT::vor(cv::Mat &  img)
 		float d = color2dist(img, pix);
 		dist.at<float>(pix.x, pix.y) = d;
 		root.at<ushort>(pix.x, pix.y) = site_id++;
-		open.push_back( std::make_pair(d, pix) );
+		open.push_back(std::make_pair(d, pix));
 		c.coverage.clear();
 	}
 	
@@ -93,7 +93,7 @@ void CVT::vor(cv::Mat &  img)
 			this->cells[rootid].coverage.push_back(cv::Point(x,y));
 		}//end y
 	}//end x
-
+	
 	//remove empty cells...
 	int cvt_size = this->cells.size();
 	for (int i = 0; i < cvt_size; i++)
