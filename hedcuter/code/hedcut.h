@@ -42,7 +42,6 @@ public:
 	float max_site_displacement; //max tolerable site displacement in each iteration. 
 	bool average_termination;	//ture when the algorithm terminates with average displacement, not max displacement
 	bool gpu;					//true when using GPU acceleration
-	
 	int subpixels;		//the number of subpixels per a pixel
 							
 	bool debug; //if true, debug information will be excuted

@@ -1,12 +1,11 @@
 #include "hedcut.h"
 #include "simple_svg_1.0.0.hpp"
 
-#include <Windows.h>
-#include <GL/GL.h>
-#include <GL\glut.h>
-
 using namespace std;
 
+//This variable is defined in wcvt.h
+int argc_GPU;
+char** argv_GPU;
 
 inline string getImageName(const string & img_name)
 {
@@ -67,28 +66,25 @@ int main(int argc, char ** argv)
 		return -1;
 	}
 
+	if (hedcut.gpu)	//If the user uses GPU, setup the opengl
+	{
+		argc_GPU = argc;
+		argv_GPU = argv;
+	}
 	if (debug)
 	{
-		cv::namedWindow("Input image", cv::WINDOW_AUTOSIZE);// Create a window for display.
-		imshow("Input image", image);                       // Show our image inside it.
-		//cv::waitKey(0);                                     // Wait for a keystroke in the window
+		if (!hedcut.gpu)
+		{
+			cv::namedWindow("Input image", cv::WINDOW_AUTOSIZE);// Create a window for display.
+			imshow("Input image", image);                       // Show our image inside it.
+			//cv::waitKey(0);                                     // Wait for a keystroke in the window
+		}
 	}
 
 	//
 	//compute hedcut
 	//
-	
-	if (hedcut.gpu)
-	{
-		//glutInit(&argc, argv);
-		//glutMainLoop();
-		//glutInitDisplayMode(GLUT_DEPTH);
-		//glEnable(GL_DEPTH_TEST);
-		//glDepthFunc(GL_ALWAYS);
-		//glDepthMask(GL_TRUE);
-		//glClear(GL_DEPTH_BUFFER_BIT);
-	}
-	
+
 	if (hedcut.build(image, sample_size) == false)
 		cerr << "! Error: Failed to build hedcut. Sorry." << endl;
 

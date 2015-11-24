@@ -22,7 +22,16 @@
 #include <opencv2/features2d/features2d.hpp>
 #include "opencv2/contrib/contrib.hpp"
 
-bool compareCell(const std::pair<float, cv::Point>& p1, const std::pair<float, cv::Point>& p2);
+//FOR GPU
+#include <Windows.h>
+#include <GL/glew.h>
+#include <GL/GL.h>
+#include <GL/GLU.h>
+#include <GL/glut.h>
+
+
+extern int argc_GPU;
+extern char** argv_GPU;
 
 struct VorCell
 {
@@ -37,6 +46,8 @@ struct VorCell
 	cv::Point site;
 	std::list<cv::Point> coverage;
 };
+
+bool compareCell(const std::pair<float, cv::Point>& p1, const std::pair<float, cv::Point>& p2);
 
 struct CVT
 {
@@ -68,12 +79,17 @@ public:
 	bool debug;
 
 private:
+	static std::vector<VorCell> cells;
 	
-	std::vector<VorCell> cells;
-
 	void vor(cv::Mat &  img);
 	void vor_GPU(cv::Mat &  img);
-
+	
+	//For GPU
+	void run_GPU(int argc, char**argv, cv::Mat img);
+	void init_GPU(cv::Mat img);
+	static void display_GPU();
+	GLuint createDisplayList_GPU();
+	
 	//convert a color intensity to distance between 0~1
 	inline float color2dist(cv::Mat &  img, cv::Point& p)
 	{
@@ -86,10 +102,10 @@ private:
 	{
 		if (cell.coverage.empty()) std::cout << "! Error: cell.coverage " << cell.site << " size = " << cell.coverage.size() << std::endl;
 
-		//Generate virtual high resolution image
+		//Generate virtual high resolution image;
 		cv::Size res(img.size().width * subpixels, img.size().height * subpixels);
-		cv::Mat resizedImg;
-		resize(img, resizedImg, cv::Size(res.width, res.height));
+		cv::Mat resizedImg(res.width, res.height, CV_LOAD_IMAGE_GRAYSCALE);
+		cv::resize(img, resizedImg, res, 0, 0, CV_INTER_LINEAR);
 
 		//compute weighted average
 		float total = 0;

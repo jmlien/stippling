@@ -34,6 +34,7 @@ bool Hedcut::build(cv::Mat & input_image, int n)
 
 	//initialize cvt
 	CVT cvt;
+	
 	cvt.iteration_limit = this->cvt_iteration_limit;
 	cvt.max_site_displacement = this->max_site_displacement;
 	cvt.average_termination = this->average_termination;
@@ -46,9 +47,9 @@ bool Hedcut::build(cv::Mat & input_image, int n)
 	
 	//compute weighted centroidal voronoi tessellation
 	if (cvt.gpu)
-		cvt.compute_weighted_cvt_GPU(grayscale, pts);
+		cvt.compute_weighted_cvt_GPU(input_image, pts);
 	else
-		cvt.compute_weighted_cvt(grayscale, pts);
+		cvt.compute_weighted_cvt(grayscale, pts);	//*****
 
 	endTime = clock();
 	std::cout << "Total time: "<< ((double)(endTime - startTime)) / CLOCKS_PER_SEC << std::endl;
@@ -123,7 +124,7 @@ void Hedcut::create_disks(cv::Mat & img, CVT & cvt)
 		r = floor(r / cell.coverage.size());
 		g = floor(g / cell.coverage.size());
 		b = floor(b / cell.coverage.size());
-		
+
 		//create a disk
 		HedcutDisk disk;
 		disk.center.x = cell.site.y; //x = col
