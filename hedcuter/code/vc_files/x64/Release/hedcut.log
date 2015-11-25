@@ -1,10 +1,9 @@
-﻿빌드 시작: 2015-11-24 오후 10:09:54
+﻿빌드 시작: 2015-11-25 오후 9:56:51
      1>2 노드의 "C:\Users\w66_000\Documents\GitHub\stippling\hedcuter\code\vc_files\hedcut.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /I../mathtool /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\wcvt_gpu.cpp
          wcvt_gpu.cpp
-     1>..\wcvt_gpu.cpp(104): warning C4267: '초기화 중' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-     1>..\wcvt_gpu.cpp(136): warning C4267: '초기화 중' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>..\wcvt_gpu.cpp(41): warning C4267: '초기화 중' : 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\w66_000\Documents\GitHub\stippling\hedcuter\code\vc_files\x64\Release\hedcut.exe" /NOLOGO /LIBPATH:C:\opencv\build\x64\vc12\lib OpenGL32.lib glew32.lib glu32.lib glut32.lib opencv_highgui2411.lib opencv_core2411.lib opencv_imgproc2411.lib opencv_flann2411.lib opencv_contrib2411.lib opencv_features2d2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\w66_000\Documents\GitHub\stippling\hedcuter\code\vc_files\x64\Release\hedcut.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\w66_000\Documents\GitHub\stippling\hedcuter\code\vc_files\x64\Release\hedcut.lib" /MACHINE:X64 x64\Release\hedcut.obj
          x64\Release\main.obj
@@ -17,4 +16,4 @@
 
 빌드했습니다.
 
-경과 시간: 00:00:02.31
+경과 시간: 00:00:02.46

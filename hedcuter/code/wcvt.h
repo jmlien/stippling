@@ -82,13 +82,14 @@ private:
 	static std::vector<VorCell> cells;
 	
 	void vor(cv::Mat &  img);
-	void vor_GPU(cv::Mat &  img);
+	
 	
 	//For GPU
-	void run_GPU(int argc, char**argv, cv::Mat img);
-	void init_GPU(cv::Mat img);
+	void run_GPU(int argc, char**argv, cv::Mat& img);
+	void init_GPU(cv::Mat& img);
 	static void display_GPU();
-	GLuint createDisplayList_GPU();
+	static void vor_GPU();
+	static float move_sites_GPU();
 	
 	//convert a color intensity to distance between 0~1
 	inline float color2dist(cv::Mat &  img, cv::Point& p)
