@@ -60,130 +60,25 @@
 \lecture{Midterm Exam Report}{Fall 2015}{Yeojin Kim}{Advance Algorithm Programming}
 
 \section{Summary of the two methods}
-
+  Both hedcuter method and voronoi method repeat two steps : constructing weighted voronoi diagram and moving sites to new centroids. %% convergence
 \subsection{hedcuter method}
-Hedcuter method consists of two main steps which is slightly different version from Secord's method\cite{secord02}:
-\begin{enumerate}
-\item Sample initial points $X=\{\mathbf{x_1, x_2, x_3, \cdots, x_n}\}$
-\item Loop while the displacements don't exceed maximum site displacement and the number of iterations doesn't exceed maximum number of iterations,
-\begin{enumerate}
-\item Map the image value at $\mathbf{x_i}$ to stipple level $t_{\mathbf{x_i}}$
-\item Propagate the stipple level at $\mathbf{x_i}$ to its neighbor
-\item Compute the centroids $\mathbf{C_i}$
-\item Move each points $\mathbf{x_i}$ to its new centers of a cell $\mathbf{C_i}$
-\end{enumerate}
-\end{enumerate}%%%%% author's idea?
-%Sampling
-First of all, hedcuter samples $n$ points that spread evenly in black area.
-The algorithm samples a uniformly distributed random point for whole area of given image and test if this random point has high probability based on gaussian distribution.
-If that is the case, it means that the value of the random point is close to black. The algorithm keeps this point as an initial point and this process is repeated until generating $n$ points.
-
-%Loop
-In the loop, the algorithm keeps mapping image using the location of a point(which corresponds to the coordinates of a pixel) as unique identification.
-This mapping image contains stipple level $t$ at each points with the number of levels $l$.
-Unlike Secord's method\cite{secord02}, hedcuter method first computes and stores stipple level $t$ only at given points using Eq. \ref{eq:distance}.
-\begin{equation}\label{eq:distance}
-t_{\mathbf{x}}=\frac{l-I(\mathbf{x})}{l}%%%%% More details about Intensity? Intensity and density function? Is this 1 means rho?
-\end{equation}
-Next, it sorts the stipples with stipple level, $x$ values, and $y$ values in ascending order.
-Stipple level has a highest priority and $y$ values has a lowest priority in sorting.
-Starting from a stipple which has the lowest stipple level, check the neighbors of the stipple.
-A stipple level $t_{new}$ of a neighbor $nb$ can be newly computed from the current stipple $c$ based on Eq. \ref{eq:neigborDistance}.
-\begin{equation}\label{eq:neigborDistance}
-t_{new}=t_{c} + t_{nb}
-\end{equation}
-In case that a neighbor has a lower stipple level than stipple level it already has, hedcut method keeps new stipple level and add this neighbor as stipple.
-After propagation of stipple level through all pixels, hedcuter method collect pixels which is affected by given points, so called coverage of a site.
-When computing the new center of a stipple, it compute weighted average of stipple levels in coverage.
+%%The idea of hedcuter method
+%%Flow
+%%Sampling
+Before constructing weighted voronoi diagram, the method samples the entire image pixel space. Using uniform 
+%%CVT & moving sites
+To construct weighted voronoi diagram, the method adopts centroid voronoi tessellation. 
+%%Creating disks
 
 \subsection{voronoi method}
-A flow of voronoi method basically follows Lloyd's method\cite{Okabe:1992:STC:135734}, which as follows : \\
-when the centroid of a region is defined as
-\begin{equation}\label{eq:centroid}
-\mathbf{C_i}=\frac{\int_{A}\mathbf{x}\rho(\mathbf{x})dA}{\int_{A}\rho(\mathbf{x})dA},
-\end{equation}
-\begin{algorithm}
-\caption{Lloyd's method}\label{alg:lloyds}
-\begin{algorithmic}[1]
-\While {generating point $\mathbf{x_i}$ not converged to centroids}
-    \State Compute the Voronoi diagram of $\mathbf{x_i}$
-    \State Compute the centroids $\mathbf{C_i}$ using equation (\ref{eq:centroid})
-    \State Move each generating point $\mathbf{x_i}$ to its centroids $\mathbf{C_i}$
-\EndWhile
-\end{algorithmic}
-\end{algorithm}\\
-For more simple explanation of details, let's assume that we have a part of image(Fig. \ref{fig:intensity}) from squirrel's back. %%%%%ref here
-First, voronoi method samples points on the image randomly(Fig. \ref{fig:samples}). %%%%%check uniform random or gaussian random
-\begin{figure*}[hbt]
- \centering
- \subfigure[]{
-    \includegraphics[width=0.32\textwidth]{FIGS/intensity.png}
-    \label{fig:intensity}
-  }\hspace{-3mm}
-  \subfigure[]{
-    \includegraphics[width=0.32\textwidth]{FIGS/sites.png}
-    \label{fig:samples}
-  }\hspace{-3mm}
-    \caption{A part of given image and sample points. \label{fig:sampling}}
-\end{figure*}\\
-\begin{figure*}[thb]
- \centering
- \subfigure[]{
-    \includegraphics[width=0.32\textwidth]{FIGS/voronoi.png}
-    \label{fig:voronoi}
-  }\hspace{-3mm}
-  \subfigure[]{
-    \includegraphics[width=0.32\textwidth]{FIGS/cell.png}
-    \label{fig:cell}
-  }\hspace{-3mm}
-   \subfigure[]{
-    \includegraphics[width=0.32\textwidth]{FIGS/clippingLine.png}
-    \label{fig:clippingline}
-  }\\
-  \subfigure[]{
-    \includegraphics[width=0.32\textwidth]{FIGS/subpixel.png}
-    \label{fig:subpixel}
-  }\hspace{-3mm}
-  \subfigure[]{
-    \includegraphics[width=0.32\textwidth]{FIGS/inandout.png}
-    \label{fig:inOutTest}
-  }\hspace{-3mm}
-  \subfigure[]{
-    \includegraphics[width=0.32\textwidth]{FIGS/integral.png}
-    \label{fig:integral}
-  }\hspace{-3mm}
-    \caption{The progress of computing voronoi diagram and redistributing stipples. \label{fig:createVoronoi}}
-\end{figure*}
-Next, voronoi method computes the voronoi region of given sample points(Fig. \ref{fig:voronoi}).
-After creating voronoi diagram of given points, the algorithm computes the centroid of a cell iteratively looping through all these points.
-For example, with a given cell in Fig. \ref{fig:cell}, voronoi method calculates the line which is the extension of voronoi edge and is called clipping line(Fig. \ref{fig:clippingline}).
-When two end points of voronoi edge are $\mathbf{x_1}=(x_1,y_1)$ and $\mathbf{x_2}=(x_2,y_2)$, the equation of clipping line is
-\begin{equation}\label{eq:clippingLine}
-\begin{gathered}
-(y-y_1) = \frac{(y_2-y_1)}{(x_2-x_1)}(x-x_1)\\
-(y-y_1)(x_2-x_1) = (y_2-y_1)(x-x_1)\\
-(y_2-y_1)(x-x_1)-(y-y_1)(x_2-x_1)= 0\\
-(y_2-y_1)x-(x_2-x_1)y+y_1(x_2-x_1)-x_1(y_2-y_1)=0\\
--(y_1-y_2)x+(x_1-x_2)y+x_1(y_1-y_2)-y_1(x_1-x_2)=0\\\\
-\therefore ax+by+c=0 \\where\:a=-(y_1-y_2),\:b=(x_1-x_2),\:and\:c=x_1(y_1-y_2)-y_1(x_1-x_2).
-\end{gathered}
-\end{equation}
-In the same way, we can generate clipping lines for all voronoi edges in a cell.\\\\
-To obtain the integration of density $\rho(\mathbf{x})$, voronoi method creates grid on a cell with the user-specified number of subpixels(Fig. \ref{fig:subpixel}).
-Using the clipping lines(Eq. \ref{eq:clippingLine}), we can test if a grid point is inside or outside of cell. If a grid point $\mathbf{x_g}=(x_g, y_g)$ satisfies $ax_g+by_g+c<0$ for all the clipping lines, it locates inside of a cell. The result of test is shown in Fig. \ref{fig:inOutTest}. The red points mean outside and the green points mean inside.
-\\When grid points are inside, the algorithm obtains $\int_{A}\rho(\mathbf{x})dA$ and $\int_{A}\mathbf{x}\rho(\mathbf{x})dA$ with intensity $I(\mathbf{x_g})$ which has corresponding location to grid points in grayscale image(Fig. \ref{fig:integral}, Eq. \ref{eq:density}).
-\begin{equation}\label{eq:density} %%%%% more details about intensity? such as formula? %% gaussian numerical integration, --- from web sites.
-\begin{gathered}
-\int_{A}\rho(\mathbf{x})dA=\int I(\mathbf{x_g})\\
-\int_{A}\mathbf{x}\rho(\mathbf{x})dA=\int \mathbf{x}I(\mathbf{x_g})=\int (x, y)I(\mathbf{x_g}).
-\end{gathered}
-\end{equation}
-Substituting the results of Eq. \ref{eq:density} to Eq. \ref{eq:centroid}, we can generate new centroid $\mathbf{C_i}=(x_c, y_c)$,
-which satisfies that $x_c=\frac{\int x\cdot I(\mathbf{x_g})}{\int I(\mathbf{x_g})}$ and $y_c=\frac{\int y\cdot I(\mathbf{x_g})}{\int I(\mathbf{x_g})}$.%%%%% writing about radius?
-This new centroids will be fed as sites into creating voronoi diagram step. Voronoi method repeats creating voronoi diagram and computing the centroid repeatedly until the average of displacement between points $\mathbf{x_i}$ and centroids $\mathbf{C_i}$ is small enough.
-%%%%% contents about radius?
+%%Idea
+%%Flow
+%%Sampling
+%%Voronoi diagram & moving sites
+%%Creating disks
+
 \section{Improvement of hedcuter method}
-%Size
+%size
 \begin{figure*}[hbt]
  \centering
  \subfigure[]{

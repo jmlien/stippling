@@ -54,6 +54,8 @@ bool Hedcut::build(cv::Mat & input_image, int n)
 	endTime = clock();
 	std::cout << "Total time: "<< ((double)(endTime - startTime)) / CLOCKS_PER_SEC << std::endl;
 
+	if (debug) cv::waitKey();
+
 	//create disks
 	create_disks(input_image, cvt);
 

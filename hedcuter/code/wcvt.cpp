@@ -157,5 +157,5 @@ void CVT::compute_weighted_cvt(cv::Mat &  img, std::vector<cv::Point2d> & sites)
 		iteration++;
 	} while (max_dist_moved>max_site_displacement && iteration < this->iteration_limit);
 
-	if (debug) cv::waitKey();
+	//if (debug) cv::waitKey();
 }

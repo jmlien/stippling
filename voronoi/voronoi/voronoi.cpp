@@ -187,7 +187,7 @@ int main( int argc, char *argv[] ) {
 	int iteration = 0;
 	float t = parameters->threshold + 1.0f;
 	timer iteration_profiler;
-	
+	total_profiler.restart();
 	do {
 		iteration_profiler.restart();
 
@@ -207,7 +207,7 @@ int main( int argc, char *argv[] ) {
 			cout << "Iteration " << iteration << " completed in " << iteration_profiler.elapsed() << " seconds." << endl;
 		}
 	} while ( t > parameters->threshold );
-
+	cout << "total" << total_profiler.elapsed() << "seconds" << endl;
 	// render final result to SVG
 	try {
 		render( stippler, *(parameters.get()) );

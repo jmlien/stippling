@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.20)  17 NOV 2015 17:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.20)  26 NOV 2015 17:08
 entering extended mode
 **C:/Users/w66_000/Documents/GitHub/stippling/report/report.tex
 (C:/Users/w66_000/Documents/GitHub/stippling/report/report.tex
@@ -427,262 +427,174 @@ LaTeX Info: Redefining \nameref on input line 58.
 (C:\Users\w66_000\Documents\GitHub\stippling\report\report.out)
 (C:\Users\w66_000\Documents\GitHub\stippling\report\report.out)
 \@outlinefile=\write4
-LaTeX Font Info:    Try loading font information for U+lasy on input line 67.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 67.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 67.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 106.
-
-<FIGS/intensity.png, id=51, 321.2pt x 236.885pt>
-File: FIGS/intensity.png Graphic file (type png)
- <use FIGS/intensity.png>
-Package pdftex.def Info: FIGS/intensity.png used on input line 122.
-(pdftex.def)             Requested size: 150.32503pt x 110.86606pt.
-
-<FIGS/sites.png, id=52, 602.25pt x 481.8pt>
-File: FIGS/sites.png Graphic file (type png)
- <use FIGS/sites.png>
-Package pdftex.def Info: FIGS/sites.png used on input line 126.
-(pdftex.def)             Requested size: 150.32503pt x 120.25854pt.
-
-<FIGS/voronoi.png, id=54, 462.97969pt x 370.38374pt>
-File: FIGS/voronoi.png Graphic file (type png)
- <use FIGS/voronoi.png>
-Package pdftex.def Info: FIGS/voronoi.png used on input line 134.
-(pdftex.def)             Requested size: 150.32503pt x 120.26025pt.
-
-<FIGS/cell.png, id=55, 469.755pt x 373.395pt>
-File: FIGS/cell.png Graphic file (type png)
- <use FIGS/cell.png>
-Package pdftex.def Info: FIGS/cell.png used on input line 138.
-(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
-
-<FIGS/clippingLine.png, id=56, 469.755pt x 373.395pt>
-File: FIGS/clippingLine.png Graphic file (type png)
-
-<use FIGS/clippingLine.png>
-Package pdftex.def Info: FIGS/clippingLine.png used on input line 142.
-(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
- <FIGS/subpixel.png, id=57, 469.755pt x 373.395pt>
-File: FIGS/subpixel.png Graphic file (type png)
-
-<use FIGS/subpixel.png>
-Package pdftex.def Info: FIGS/subpixel.png used on input line 146.
-(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
- <FIGS/inandout.png, id=58, 469.755pt x 373.395pt>
-File: FIGS/inandout.png Graphic file (type png)
-
-<use FIGS/inandout.png>
-Package pdftex.def Info: FIGS/inandout.png used on input line 150.
-(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
- <FIGS/integral.png, id=59, 469.755pt x 373.395pt>
-File: FIGS/integral.png Graphic file (type png)
-
-<use FIGS/integral.png>
-Package pdftex.def Info: FIGS/integral.png used on input line 154.
-(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--175
-
- []
-
-[2 <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/intensity.png> <C:/
-Users/w66_000/Documents/GitHub/stippling/report/FIGS/sites.png>]
-<FIGS/size/cat-xsmall.png, id=90, 120.45pt x 80.2197pt>
+<FIGS/size/cat-xsmall.png, id=19, 120.45pt x 80.2197pt>
 File: FIGS/size/cat-xsmall.png Graphic file (type png)
 
 <use FIGS/size/cat-xsmall.png>
-Package pdftex.def Info: FIGS/size/cat-xsmall.png used on input line 192.
+Package pdftex.def Info: FIGS/size/cat-xsmall.png used on input line 87.
 (pdftex.def)             Requested size: 103.34666pt x 68.8309pt.
 
-<FIGS/size/cat-small.png, id=91, 180.675pt x 120.2091pt>
+<FIGS/size/cat-small.png, id=21, 180.675pt x 120.2091pt>
 File: FIGS/size/cat-small.png Graphic file (type png)
 
 <use FIGS/size/cat-small.png>
-Package pdftex.def Info: FIGS/size/cat-small.png used on input line 196.
+Package pdftex.def Info: FIGS/size/cat-small.png used on input line 91.
 (pdftex.def)             Requested size: 103.34666pt x 68.76018pt.
 
-<FIGS/size/cat-middle.png, id=92, 361.35pt x 240.1773pt>
+<FIGS/size/cat-middle.png, id=22, 361.35pt x 240.1773pt>
 File: FIGS/size/cat-middle.png Graphic file (type png)
 
 <use FIGS/size/cat-middle.png>
-Package pdftex.def Info: FIGS/size/cat-middle.png used on input line 200.
+Package pdftex.def Info: FIGS/size/cat-middle.png used on input line 95.
 (pdftex.def)             Requested size: 103.34666pt x 68.68945pt.
 
-<FIGS/size/cat-large.png, id=93, 722.7pt x 480.1137pt>
+<FIGS/size/cat-large.png, id=23, 722.7pt x 480.1137pt>
 File: FIGS/size/cat-large.png Graphic file (type png)
 
 <use FIGS/size/cat-large.png>
-Package pdftex.def Info: FIGS/size/cat-large.png used on input line 204.
+Package pdftex.def Info: FIGS/size/cat-large.png used on input line 99.
 (pdftex.def)             Requested size: 103.34666pt x 68.65134pt.
 
-<FIGS/brightness/cat-b-40.png, id=94, 181.1568pt x 119.9682pt>
+<FIGS/brightness/cat-b-40.png, id=24, 181.1568pt x 119.9682pt>
 File: FIGS/brightness/cat-b-40.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b-40.png>
-Package pdftex.def Info: FIGS/brightness/cat-b-40.png used on input line 213.
+Package pdftex.def Info: FIGS/brightness/cat-b-40.png used on input line 108.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/brightness/cat-b-20.png, id=95, 181.1568pt x 119.9682pt>
+<FIGS/brightness/cat-b-20.png, id=25, 181.1568pt x 119.9682pt>
 File: FIGS/brightness/cat-b-20.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b-20.png>
-Package pdftex.def Info: FIGS/brightness/cat-b-20.png used on input line 217.
+Package pdftex.def Info: FIGS/brightness/cat-b-20.png used on input line 112.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/brightness/cat-b+20.png, id=96, 181.1568pt x 119.9682pt>
+<FIGS/brightness/cat-b+20.png, id=26, 181.1568pt x 119.9682pt>
 File: FIGS/brightness/cat-b+20.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b+20.png>
-Package pdftex.def Info: FIGS/brightness/cat-b+20.png used on input line 221.
+Package pdftex.def Info: FIGS/brightness/cat-b+20.png used on input line 116.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/brightness/cat-b+40.png, id=97, 181.1568pt x 119.9682pt>
+<FIGS/brightness/cat-b+40.png, id=27, 181.1568pt x 119.9682pt>
 File: FIGS/brightness/cat-b+40.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b+40.png>
-Package pdftex.def Info: FIGS/brightness/cat-b+40.png used on input line 225.
+Package pdftex.def Info: FIGS/brightness/cat-b+40.png used on input line 120.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/contrast/cat-c-40.png, id=98, 181.1568pt x 119.9682pt>
+<FIGS/contrast/cat-c-40.png, id=28, 181.1568pt x 119.9682pt>
 File: FIGS/contrast/cat-c-40.png Graphic file (type png)
 
 <use FIGS/contrast/cat-c-40.png>
-Package pdftex.def Info: FIGS/contrast/cat-c-40.png used on input line 234.
+Package pdftex.def Info: FIGS/contrast/cat-c-40.png used on input line 129.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/contrast/cat-c-20.png, id=99, 181.1568pt x 119.9682pt>
+<FIGS/contrast/cat-c-20.png, id=29, 181.1568pt x 119.9682pt>
 File: FIGS/contrast/cat-c-20.png Graphic file (type png)
 
 <use FIGS/contrast/cat-c-20.png>
-Package pdftex.def Info: FIGS/contrast/cat-c-20.png used on input line 238.
+Package pdftex.def Info: FIGS/contrast/cat-c-20.png used on input line 133.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/contrast/cat-c+20.png, id=100, 181.1568pt x 119.9682pt>
+<FIGS/contrast/cat-c+20.png, id=30, 181.1568pt x 119.9682pt>
 File: FIGS/contrast/cat-c+20.png Graphic file (type png)
 
 <use FIGS/contrast/cat-c+20.png>
-Package pdftex.def Info: FIGS/contrast/cat-c+20.png used on input line 242.
+Package pdftex.def Info: FIGS/contrast/cat-c+20.png used on input line 137.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/contrast/cat-c+40.png, id=101, 181.1568pt x 119.9682pt>
+<FIGS/contrast/cat-c+40.png, id=31, 181.1568pt x 119.9682pt>
 File: FIGS/contrast/cat-c+40.png Graphic file (type png)
 
 <use FIGS/contrast/cat-c+40.png>
-Package pdftex.def Info: FIGS/contrast/cat-c+40.png used on input line 246.
+Package pdftex.def Info: FIGS/contrast/cat-c+40.png used on input line 141.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/sharpness/cat-s-50.png, id=102, 181.1568pt x 119.9682pt>
+<FIGS/sharpness/cat-s-50.png, id=32, 181.1568pt x 119.9682pt>
 File: FIGS/sharpness/cat-s-50.png Graphic file (type png)
 
 <use FIGS/sharpness/cat-s-50.png>
-Package pdftex.def Info: FIGS/sharpness/cat-s-50.png used on input line 255.
+Package pdftex.def Info: FIGS/sharpness/cat-s-50.png used on input line 150.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/sharpness/cat-s-25.png, id=103, 181.1568pt x 119.9682pt>
+<FIGS/sharpness/cat-s-25.png, id=33, 181.1568pt x 119.9682pt>
 File: FIGS/sharpness/cat-s-25.png Graphic file (type png)
 
 <use FIGS/sharpness/cat-s-25.png>
-Package pdftex.def Info: FIGS/sharpness/cat-s-25.png used on input line 259.
+Package pdftex.def Info: FIGS/sharpness/cat-s-25.png used on input line 154.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/sharpness/cat-s+25.png, id=104, 181.1568pt x 119.9682pt>
+<FIGS/sharpness/cat-s+25.png, id=34, 181.1568pt x 119.9682pt>
 File: FIGS/sharpness/cat-s+25.png Graphic file (type png)
 
 <use FIGS/sharpness/cat-s+25.png>
-Package pdftex.def Info: FIGS/sharpness/cat-s+25.png used on input line 263.
+Package pdftex.def Info: FIGS/sharpness/cat-s+25.png used on input line 158.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/sharpness/cat-s+50.png, id=105, 181.1568pt x 119.9682pt>
+<FIGS/sharpness/cat-s+50.png, id=35, 181.1568pt x 119.9682pt>
 File: FIGS/sharpness/cat-s+50.png Graphic file (type png)
 
 <use FIGS/sharpness/cat-s+50.png>
-Package pdftex.def Info: FIGS/sharpness/cat-s+50.png used on input line 267.
+Package pdftex.def Info: FIGS/sharpness/cat-s+50.png used on input line 162.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
 (C:\Users\w66_000\Documents\GitHub\stippling\report\report.bbl
 (C:\Users\w66_000\Documents\GitHub\stippling\report\report.brf)
 \tf@brf=\write5
- [3 <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/voronoi.png> <C:/U
-sers/w66_000/Documents/GitHub/stippling/report/FIGS/cell.png> <C:/Users/w66_000
-/Documents/GitHub/stippling/report/FIGS/clippingLine.png> <C:/Users/w66_000/Doc
-uments/GitHub/stippling/report/FIGS/subpixel.png> <C:/Users/w66_000/Documents/G
-itHub/stippling/report/FIGS/inandout.png> <C:/Users/w66_000/Documents/GitHub/st
-ippling/report/FIGS/integral.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
- [4 <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/size/cat-xsmall.pn
-g> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/size/cat-small.png>
- <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/size/cat-middle.png> 
-<C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/size/cat-large.png> <C
-:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/brightness/cat-b-40.png>
- <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/brightness/cat-b-20.p
-ng> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/brightness/cat-b+2
-0.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/brightness/cat-
-b+40.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/contrast/cat
--c-40.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/contrast/ca
-t-c-20.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/contrast/c
-at-c+20.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/contrast/
-cat-c+40.png>] [5 <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/shar
-pness/cat-s-50.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/sh
-arpness/cat-s-25.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/
-sharpness/cat-s+25.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIG
-S/sharpness/cat-s+50.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/w66_000/Document
+s/GitHub/stippling/report/FIGS/size/cat-xsmall.png> <C:/Users/w66_000/Documents
+/GitHub/stippling/report/FIGS/size/cat-small.png> <C:/Users/w66_000/Documents/G
+itHub/stippling/report/FIGS/size/cat-middle.png> <C:/Users/w66_000/Documents/Gi
+tHub/stippling/report/FIGS/size/cat-large.png> <C:/Users/w66_000/Documents/GitH
+ub/stippling/report/FIGS/brightness/cat-b-40.png> <C:/Users/w66_000/Documents/G
+itHub/stippling/report/FIGS/brightness/cat-b-20.png> <C:/Users/w66_000/Document
+s/GitHub/stippling/report/FIGS/brightness/cat-b+20.png> <C:/Users/w66_000/Docum
+ents/GitHub/stippling/report/FIGS/brightness/cat-b+40.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+ [2 <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/contrast/cat-c-40.
+png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/contrast/cat-c-20
+.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/contrast/cat-c+2
+0.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/contrast/cat-c+
+40.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/sharpness/cat-
+s-50.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/sharpness/ca
+t-s-25.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/sharpness/
+cat-s+25.png> <C:/Users/w66_000/Documents/GitHub/stippling/report/FIGS/sharpnes
+s/cat-s+50.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
 
 (C:\Users\w66_000\Documents\GitHub\stippling\report\report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 26A269B5A103AB88481EF8ECE965F802;257.
 Package rerunfilecheck Info: File `report.brf' has not changed.
-(rerunfilecheck)             Checksum: 10EE6246BB43A2DD533D9AB2F9A5A181;149.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 7470 strings out of 493921
- 108472 string characters out of 3144870
- 196163 words of memory out of 3000000
- 10576 multiletter control sequences out of 15000+200000
- 11390 words of font info for 44 fonts, out of 3000000 for 9000
+ 7306 strings out of 493921
+ 105810 string characters out of 3144870
+ 192066 words of memory out of 3000000
+ 10472 multiletter control sequences out of 15000+200000
+ 6103 words of font info for 22 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 32i,8n,28p,437b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on report.pdf (5 pages, 8620524 bytes).
+ 32i,7n,28p,324b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on report.pdf (2 pages, 8408133 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -59,7 +59,7 @@ void CVT::run_GPU(int argc, char**argv, cv::Mat& img)
 	glutInitWindowPosition(50, 50);
 	glutCreateWindow("Image");
 
-	glewInit();
+	//glewInit();
 	init_GPU(img);
 
 	glutDisplayFunc(display_GPU);
