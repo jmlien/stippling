@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.27)  27 NOV 2015 14:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.27)  28 NOV 2015 00:14
 entering extended mode
 **C:/Users/Yeojin/Documents/GitHub/stippling/report/report.tex
 (C:/Users/Yeojin/Documents/GitHub/stippling/report/report.tex
@@ -471,9 +471,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 108.
 
-
-LaTeX Warning: Reference `fig:samples' on page 2 undefined on input line 117.
-
 <FIGS/voronoi.png, id=86, 462.97969pt x 370.38374pt>
 File: FIGS/voronoi.png Graphic file (type png)
  <use FIGS/voronoi.png>
@@ -511,7 +508,7 @@ File: FIGS/integral.png Graphic file (type png)
 Package pdftex.def Info: FIGS/integral.png used on input line 143.
 (pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--164
+Underfull \hbox (badness 10000) in paragraph at lines 152--157
 
  []
 
@@ -520,279 +517,970 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--164
 /Documents/GitHub/stippling/report/FIGS/clippingLine.png> <C:/Users/Yeojin/Docu
 ments/GitHub/stippling/report/FIGS/subpixel.png> <C:/Users/Yeojin/Documents/Git
 Hub/stippling/report/FIGS/inandout.png> <C:/Users/Yeojin/Documents/GitHub/stipp
-ling/report/FIGS/integral.png>]
-<FIGS/sameInput/squirrel-h-5000_01.png, id=139, 1337.74782pt x 1004.25188pt>
+ling/report/FIGS/integral.png>] [4] [5]
+(C:\Users\Yeojin\Documents\GitHub\stippling\report\report.bbl
+(C:\Users\Yeojin\Documents\GitHub\stippling\report\report.brf)
+\tf@brf=\write5
+)
+<FIGS/simple_result/Lincoln.png, id=188, 1002.74625pt x 1237.62375pt>
+File: FIGS/simple_result/Lincoln.png Graphic file (type png)
+
+<use FIGS/simple_result/Lincoln.png>
+Package pdftex.def Info: FIGS/simple_result/Lincoln.png used on input line 211.
+
+(pdftex.def)             Requested size: 150.32503pt x 185.52225pt.
+
+<FIGS/simple_result/Lincoln-5000.png, id=189, 1067.78925pt x 1316.0367pt>
+File: FIGS/simple_result/Lincoln-5000.png Graphic file (type png)
+
+<use FIGS/simple_result/Lincoln-5000.png>
+Package pdftex.def Info: FIGS/simple_result/Lincoln-5000.png used on input line
+ 215.
+(pdftex.def)             Requested size: 150.32503pt x 185.26802pt.
+
+<FIGS/simple_result/Lincoln-stippler.png, id=190, 1073.2095pt x 1322.90234pt>
+File: FIGS/simple_result/Lincoln-stippler.png Graphic file (type png)
+
+<use FIGS/simple_result/Lincoln-stippler.png>
+Package pdftex.def Info: FIGS/simple_result/Lincoln-stippler.png used on input 
+line 219.
+(pdftex.def)             Requested size: 150.32503pt x 185.28581pt.
+
+<FIGS/simple_result/che-guevara-medium.png, id=191, 72.27pt x 92.62605pt>
+File: FIGS/simple_result/che-guevara-medium.png Graphic file (type png)
+
+<use FIGS/simple_result/che-guevara-medium.png>
+Package pdftex.def Info: FIGS/simple_result/che-guevara-medium.png used on inpu
+t line 223.
+(pdftex.def)             Requested size: 150.32503pt x 192.67738pt.
+
+<FIGS/simple_result/che-guevara-medium-5000.png, id=192, 480.5955pt x 610.6815p
+t>
+File: FIGS/simple_result/che-guevara-medium-5000.png Graphic file (type png)
+ <use FIGS/simple_result/che-guevara-medium-5000.png>
+Package pdftex.def Info: FIGS/simple_result/che-guevara-medium-5000.png used on
+ input line 227.
+(pdftex.def)             Requested size: 150.32503pt x 191.01454pt.
+
+<FIGS/simple_result/che-guevara-medium-stippler.png, id=193, 479.8728pt x 609.5
+9744pt>
+File: FIGS/simple_result/che-guevara-medium-stippler.png Graphic file (type png
+)
+ <use FIGS/simple_result/che-guevara-medium-stippler.png>
+Package pdftex.def Info: FIGS/simple_result/che-guevara-medium-stippler.png use
+d on input line 231.
+(pdftex.def)             Requested size: 150.32503pt x 190.9638pt.
+
+<FIGS/simple_result/erinking.png, id=194, 335.00156pt x 234.1247pt>
+File: FIGS/simple_result/erinking.png Graphic file (type png)
+
+<use FIGS/simple_result/erinking.png>
+Package pdftex.def Info: FIGS/simple_result/erinking.png used on input line 235
+.
+(pdftex.def)             Requested size: 150.32503pt x 105.05861pt.
+
+<FIGS/simple_result/erinking-5000.png, id=195, 347.6187pt x 239.57504pt>
+File: FIGS/simple_result/erinking-5000.png Graphic file (type png)
+
+<use FIGS/simple_result/erinking-5000.png>
+Package pdftex.def Info: FIGS/simple_result/erinking-5000.png used on input lin
+e 239.
+(pdftex.def)             Requested size: 150.32503pt x 103.6038pt.
+
+<FIGS/simple_result/erinking-stippler.png, id=196, 344.7279pt x 213.1965pt>
+File: FIGS/simple_result/erinking-stippler.png Graphic file (type png)
+
+<use FIGS/simple_result/erinking-stippler.png>
+Package pdftex.def Info: FIGS/simple_result/erinking-stippler.png used on input
+ line 243.
+(pdftex.def)             Requested size: 150.32503pt x 92.96744pt.
+
+<FIGS/simple_result/einstein.png, id=197, 284.262pt x 303.0522pt>
+File: FIGS/simple_result/einstein.png Graphic file (type png)
+
+<use FIGS/simple_result/einstein.png>
+Package pdftex.def Info: FIGS/simple_result/einstein.png used on input line 250
+.
+(pdftex.def)             Requested size: 150.32503pt x 160.26546pt.
+
+<FIGS/simple_result/einstein-5000.png, id=198, 946.0143pt x 1011.0573pt>
+File: FIGS/simple_result/einstein-5000.png Graphic file (type png)
+
+<use FIGS/simple_result/einstein-5000.png>
+Package pdftex.def Info: FIGS/simple_result/einstein-5000.png used on input lin
+e 254.
+(pdftex.def)             Requested size: 150.32503pt x 160.66168pt.
+
+<FIGS/simple_result/einstein-stippler.png, id=199, 949.98915pt x 1013.9481pt>
+File: FIGS/simple_result/einstein-stippler.png Graphic file (type png)
+
+<use FIGS/simple_result/einstein-stippler.png>
+Package pdftex.def Info: FIGS/simple_result/einstein-stippler.png used on input
+ line 258.
+(pdftex.def)             Requested size: 150.32503pt x 160.4403pt.
+
+<FIGS/simple_result/einstein-medium.png, id=200, 135.6267pt x 144.54pt>
+File: FIGS/simple_result/einstein-medium.png Graphic file (type png)
+
+<use FIGS/simple_result/einstein-medium.png>
+Package pdftex.def Info: FIGS/simple_result/einstein-medium.png used on input l
+ine 262.
+(pdftex.def)             Requested size: 150.32503pt x 160.20528pt.
+
+<FIGS/simple_result/einstein-medium-5000.png, id=201, 456.38506pt x 486.01575pt
+>
+File: FIGS/simple_result/einstein-medium-5000.png Graphic file (type png)
+ <use FIGS/simple_result/einstein-medium-5000.png>
+Package pdftex.def Info: FIGS/simple_result/einstein-medium-5000.png used on in
+put line 266.
+(pdftex.def)             Requested size: 150.32503pt x 160.08163pt.
+
+<FIGS/simple_result/einstein-medium-stippler.png, id=202, 453.49425pt x 483.124
+95pt>
+File: FIGS/simple_result/einstein-medium-stippler.png Graphic file (type png)
+ <use FIGS/simple_result/einstein-medium-stippler.png>
+Package pdftex.def Info: FIGS/simple_result/einstein-medium-stippler.png used o
+n input line 270.
+(pdftex.def)             Requested size: 150.32503pt x 160.14679pt.
+
+<FIGS/simple_result/fairyeyes.png, id=203, 569.12625pt x 758.835pt>
+File: FIGS/simple_result/fairyeyes.png Graphic file (type png)
+
+<use FIGS/simple_result/fairyeyes.png>
+Package pdftex.def Info: FIGS/simple_result/fairyeyes.png used on input line 27
+4.
+(pdftex.def)             Requested size: 150.32503pt x 200.43033pt.
+
+<FIGS/simple_result/fairyeyes-5000.png, id=204, 459.27585pt x 611.4042pt>
+File: FIGS/simple_result/fairyeyes-5000.png Graphic file (type png)
+
+<use FIGS/simple_result/fairyeyes-5000.png>
+Package pdftex.def Info: FIGS/simple_result/fairyeyes-5000.png used on input li
+ne 278.
+(pdftex.def)             Requested size: 150.32503pt x 200.11272pt.
+
+<FIGS/simple_result/fairyeyes-stippler.png, id=205, 459.27585pt x 609.9588pt>
+File: FIGS/simple_result/fairyeyes-stippler.png Graphic file (type png)
+
+<use FIGS/simple_result/fairyeyes-stippler.png>
+Package pdftex.def Info: FIGS/simple_result/fairyeyes-stippler.png used on inpu
+t line 282.
+(pdftex.def)             Requested size: 150.32503pt x 199.63965pt.
+
+
+LaTeX Warning: Float too large for page by 6.18642pt on input line 284.
+
+<FIGS/simple_result/gradient.png, id=210, 481.8pt x 361.35pt>
+File: FIGS/simple_result/gradient.png Graphic file (type png)
+
+<use FIGS/simple_result/gradient.png>
+Package pdftex.def Info: FIGS/simple_result/gradient.png used on input line 290
+.
+(pdftex.def)             Requested size: 150.32503pt x 112.73964pt.
+
+<FIGS/simple_result/gradient-5000.png, id=211, 519.6213pt x 380.8629pt>
+File: FIGS/simple_result/gradient-5000.png Graphic file (type png)
+
+<use FIGS/simple_result/gradient-5000.png>
+Package pdftex.def Info: FIGS/simple_result/gradient-5000.png used on input lin
+e 294.
+(pdftex.def)             Requested size: 150.32503pt x 110.18007pt.
+
+<FIGS/simple_result/gradient-stippler.png, id=212, 515.2851pt x 376.88805pt>
+File: FIGS/simple_result/gradient-stippler.png Graphic file (type png)
+
+<use FIGS/simple_result/gradient-stippler.png>
+Package pdftex.def Info: FIGS/simple_result/gradient-stippler.png used on input
+ line 298.
+(pdftex.def)             Requested size: 150.32503pt x 109.95032pt.
+
+<FIGS/simple_result/klaymen.png, id=213, 144.54pt x 232.4685pt>
+File: FIGS/simple_result/klaymen.png Graphic file (type png)
+
+<use FIGS/simple_result/klaymen.png>
+Package pdftex.def Info: FIGS/simple_result/klaymen.png used on input line 302.
+
+(pdftex.def)             Requested size: 150.32503pt x 241.78636pt.
+
+<FIGS/simple_result/klaymen-5000.png, id=214, 463.61205pt x 739.68346pt>
+File: FIGS/simple_result/klaymen-5000.png Graphic file (type png)
+
+<use FIGS/simple_result/klaymen-5000.png>
+Package pdftex.def Info: FIGS/simple_result/klaymen-5000.png used on input line
+ 306.
+(pdftex.def)             Requested size: 150.32503pt x 239.84123pt.
+
+<FIGS/simple_result/klaymen-stippler.png, id=215, 466.50285pt x 750.52396pt>
+File: FIGS/simple_result/klaymen-stippler.png Graphic file (type png)
+
+<use FIGS/simple_result/klaymen-stippler.png>
+Package pdftex.def Info: FIGS/simple_result/klaymen-stippler.png used on input 
+line 310.
+(pdftex.def)             Requested size: 150.32503pt x 241.84457pt.
+
+<FIGS/simple_result/phoenix.png, id=216, 673.51625pt x 434.62375pt>
+File: FIGS/simple_result/phoenix.png Graphic file (type png)
+
+<use FIGS/simple_result/phoenix.png>
+Package pdftex.def Info: FIGS/simple_result/phoenix.png used on input line 314.
+
+(pdftex.def)             Requested size: 150.32503pt x 97.00356pt.
+
+<FIGS/simple_result/phoenix-5000.png, id=217, 538.05016pt x 343.64384pt>
+File: FIGS/simple_result/phoenix-5000.png Graphic file (type png)
+
+<use FIGS/simple_result/phoenix-5000.png>
+Package pdftex.def Info: FIGS/simple_result/phoenix-5000.png used on input line
+ 318.
+(pdftex.def)             Requested size: 150.32503pt x 96.00987pt.
+
+<FIGS/simple_result/phoenix-stippler.png, id=218, 533.71394pt x 344.36655pt>
+File: FIGS/simple_result/phoenix-stippler.png Graphic file (type png)
+
+<use FIGS/simple_result/phoenix-stippler.png>
+Package pdftex.def Info: FIGS/simple_result/phoenix-stippler.png used on input 
+line 322.
+(pdftex.def)             Requested size: 150.32503pt x 96.99472pt.
+
+<FIGS/simple_result/squirrel.png, id=219, 321.2pt x 240.9pt>
+File: FIGS/simple_result/squirrel.png Graphic file (type png)
+
+<use FIGS/simple_result/squirrel.png>
+Package pdftex.def Info: FIGS/simple_result/squirrel.png used on input line 329
+.
+(pdftex.def)             Requested size: 150.32503pt x 112.74515pt.
+
+<FIGS/simple_result/squirrel-5000.png, id=220, 643.203pt x 482.40225pt>
+File: FIGS/simple_result/squirrel-5000.png Graphic file (type png)
+
+<use FIGS/simple_result/squirrel-5000.png>
+Package pdftex.def Info: FIGS/simple_result/squirrel-5000.png used on input lin
+e 333.
+(pdftex.def)             Requested size: 150.32503pt x 112.73886pt.
+
+<FIGS/simple_result/squirrel-stippler.png, id=221, 641.39626pt x 480.5955pt>
+File: FIGS/simple_result/squirrel-stippler.png Graphic file (type png)
+
+<use FIGS/simple_result/squirrel-stippler.png>
+Package pdftex.def Info: FIGS/simple_result/squirrel-stippler.png used on input
+ line 337.
+(pdftex.def)             Requested size: 150.32503pt x 112.63196pt.
+
+<FIGS/sameInput/squirrel-h-5000_01.png, id=222, 1337.74782pt x 1004.25188pt>
 File: FIGS/sameInput/squirrel-h-5000_01.png Graphic file (type png)
 
 <use FIGS/sameInput/squirrel-h-5000_01.png>
 Package pdftex.def Info: FIGS/sameInput/squirrel-h-5000_01.png used on input li
-ne 188.
+ne 346.
 (pdftex.def)             Requested size: 150.32503pt x 112.8432pt.
 
-<FIGS/sameInput/squirrel-h-5000_02.png, id=140, 1338.50063pt x 1003.49907pt>
+<FIGS/sameInput/squirrel-h-5000_02.png, id=223, 1338.50063pt x 1003.49907pt>
 File: FIGS/sameInput/squirrel-h-5000_02.png Graphic file (type png)
 
 <use FIGS/sameInput/squirrel-h-5000_02.png>
 Package pdftex.def Info: FIGS/sameInput/squirrel-h-5000_02.png used on input li
-ne 192.
+ne 350.
 (pdftex.def)             Requested size: 150.32503pt x 112.69737pt.
 
-<FIGS/sameInput/squirrel-h-5000_03.png, id=141, 1337.74782pt x 1005.00468pt>
+<FIGS/sameInput/squirrel-h-5000_03.png, id=224, 1337.74782pt x 1005.00468pt>
 File: FIGS/sameInput/squirrel-h-5000_03.png Graphic file (type png)
 
 <use FIGS/sameInput/squirrel-h-5000_03.png>
 Package pdftex.def Info: FIGS/sameInput/squirrel-h-5000_03.png used on input li
-ne 196.
+ne 354.
 (pdftex.def)             Requested size: 150.32503pt x 112.9278pt.
 
-<FIGS/sameInput/squirrel-stippler_01.png, id=142, 641.39626pt x 480.5955pt>
+<FIGS/sameInput/squirrel-stippler_01.png, id=225, 641.39626pt x 480.5955pt>
 File: FIGS/sameInput/squirrel-stippler_01.png Graphic file (type png)
 
 <use FIGS/sameInput/squirrel-stippler_01.png>
 Package pdftex.def Info: FIGS/sameInput/squirrel-stippler_01.png used on input 
-line 200.
+line 358.
 (pdftex.def)             Requested size: 150.32503pt x 112.63196pt.
 
-<FIGS/sameInput/squirrel-stippler_02.png, id=143, 641.39626pt x 480.5955pt>
+<FIGS/sameInput/squirrel-stippler_02.png, id=226, 641.39626pt x 480.5955pt>
 File: FIGS/sameInput/squirrel-stippler_02.png Graphic file (type png)
 
 <use FIGS/sameInput/squirrel-stippler_02.png>
 Package pdftex.def Info: FIGS/sameInput/squirrel-stippler_02.png used on input 
-line 204.
+line 362.
 (pdftex.def)             Requested size: 150.32503pt x 112.63196pt.
 
-<FIGS/sameInput/squirrel-stippler_03.png, id=144, 641.39626pt x 480.5955pt>
+<FIGS/sameInput/squirrel-stippler_03.png, id=227, 641.39626pt x 480.5955pt>
 File: FIGS/sameInput/squirrel-stippler_03.png Graphic file (type png)
 
 <use FIGS/sameInput/squirrel-stippler_03.png>
 Package pdftex.def Info: FIGS/sameInput/squirrel-stippler_03.png used on input 
-line 208.
+line 366.
 (pdftex.def)             Requested size: 150.32503pt x 112.63196pt.
 
-<FIGS/size/cat-xsmall-7500.png, id=147, 847.66687pt x 569.87906pt>
+<FIGS/size/cat-xsmall-7500.png, id=228, 847.66687pt x 569.87906pt>
 File: FIGS/size/cat-xsmall-7500.png Graphic file (type png)
 
 <use FIGS/size/cat-xsmall-7500.png>
-Package pdftex.def Info: FIGS/size/cat-xsmall-7500.png used on input line 218.
+Package pdftex.def Info: FIGS/size/cat-xsmall-7500.png used on input line 374.
 (pdftex.def)             Requested size: 103.34666pt x 69.47818pt.
 
-<FIGS/size/cat-small-7500.png, id=148, 1262.46657pt x 847.66687pt>
+<FIGS/size/cat-small-7500.png, id=229, 1262.46657pt x 847.66687pt>
 File: FIGS/size/cat-small-7500.png Graphic file (type png)
 
 <use FIGS/size/cat-small-7500.png>
-Package pdftex.def Info: FIGS/size/cat-small-7500.png used on input line 222.
+Package pdftex.def Info: FIGS/size/cat-small-7500.png used on input line 378.
 (pdftex.def)             Requested size: 103.34666pt x 69.37978pt.
 
-<FIGS/size/cat-middle-7500.png, id=149, 2510.62968pt x 1668.9853pt>
+<FIGS/size/cat-middle-7500.png, id=230, 2510.62968pt x 1668.9853pt>
 File: FIGS/size/cat-middle-7500.png Graphic file (type png)
 
 <use FIGS/size/cat-middle-7500.png>
-Package pdftex.def Info: FIGS/size/cat-middle-7500.png used on input line 226.
+Package pdftex.def Info: FIGS/size/cat-middle-7500.png used on input line 382.
 (pdftex.def)             Requested size: 103.34666pt x 68.6835pt.
 
-<FIGS/size/cat-large-7500.png, id=150, 5003.94469pt x 3323.66719pt>
+<FIGS/size/cat-large-7500.png, id=231, 5003.94469pt x 3323.66719pt>
 File: FIGS/size/cat-large-7500.png Graphic file (type png)
 
 <use FIGS/size/cat-large-7500.png>
-Package pdftex.def Info: FIGS/size/cat-large-7500.png used on input line 230.
+Package pdftex.def Info: FIGS/size/cat-large-7500.png used on input line 386.
 (pdftex.def)             Requested size: 103.34666pt x 68.6174pt.
 
-<FIGS/size/cat-xsmall-stippler.png, id=151, 402.5439pt x 268.8444pt>
+<FIGS/size/cat-xsmall-stippler.png, id=232, 402.5439pt x 268.8444pt>
 File: FIGS/size/cat-xsmall-stippler.png Graphic file (type png)
 
 <use FIGS/size/cat-xsmall-stippler.png>
-Package pdftex.def Info: FIGS/size/cat-xsmall-stippler.png used on input line 2
-34.
+Package pdftex.def Info: FIGS/size/cat-xsmall-stippler.png used on input line 3
+90.
 (pdftex.def)             Requested size: 103.34666pt x 69.02002pt.
 
-<FIGS/size/cat-small-stippler.png, id=152, 603.81586pt x 402.5439pt>
+<FIGS/size/cat-small-stippler.png, id=233, 603.81586pt x 402.5439pt>
 File: FIGS/size/cat-small-stippler.png Graphic file (type png)
 
 <use FIGS/size/cat-small-stippler.png>
-Package pdftex.def Info: FIGS/size/cat-small-stippler.png used on input line 23
-8.
+Package pdftex.def Info: FIGS/size/cat-small-stippler.png used on input line 39
+4.
 (pdftex.def)             Requested size: 103.34666pt x 68.89223pt.
 
-<FIGS/size/cat-middle-stippler.png, id=153, 1206.1863pt x 804.72646pt>
+<FIGS/size/cat-middle-stippler.png, id=234, 1206.1863pt x 804.72646pt>
 File: FIGS/size/cat-middle-stippler.png Graphic file (type png)
 
 <use FIGS/size/cat-middle-stippler.png>
-Package pdftex.def Info: FIGS/size/cat-middle-stippler.png used on input line 2
-42.
+Package pdftex.def Info: FIGS/size/cat-middle-stippler.png used on input line 3
+98.
 (pdftex.def)             Requested size: 103.34666pt x 68.94727pt.
 
-<FIGS/size/cat-large-stippler.png, id=154, 2413.0953pt x 1607.2848pt>
+<FIGS/size/cat-large-stippler.png, id=235, 2413.0953pt x 1607.2848pt>
 File: FIGS/size/cat-large-stippler.png Graphic file (type png)
 
 <use FIGS/size/cat-large-stippler.png>
-Package pdftex.def Info: FIGS/size/cat-large-stippler.png used on input line 24
-6.
+Package pdftex.def Info: FIGS/size/cat-large-stippler.png used on input line 40
+2.
 (pdftex.def)             Requested size: 103.34666pt x 68.8176pt.
- [4 <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/sameInput/squirrel-
-h-5000_01.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/sameInpu
-t/squirrel-h-5000_02.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FI
-GS/sameInput/squirrel-h-5000_03.png> <C:/Users/Yeojin/Documents/GitHub/stipplin
-g/report/FIGS/sameInput/squirrel-stippler_01.png> <C:/Users/Yeojin/Documents/Gi
-tHub/stippling/report/FIGS/sameInput/squirrel-stippler_02.png> <C:/Users/Yeojin
-/Documents/GitHub/stippling/report/FIGS/sameInput/squirrel-stippler_03.png>]
-<FIGS/num/squirrel-2500.png, id=176, 1336.24219pt x 997.47656pt>
+
+<FIGS/num/squirrel-2500.png, id=236, 1336.24219pt x 997.47656pt>
 File: FIGS/num/squirrel-2500.png Graphic file (type png)
 
 <use FIGS/num/squirrel-2500.png>
-Package pdftex.def Info: FIGS/num/squirrel-2500.png used on input line 257.
+Package pdftex.def Info: FIGS/num/squirrel-2500.png used on input line 411.
 (pdftex.def)             Requested size: 150.32503pt x 112.20366pt.
 
-<FIGS/num/squirrel-5000.png, id=177, 1337.74782pt x 1005.00468pt>
+<FIGS/num/squirrel-5000.png, id=237, 1337.74782pt x 1005.00468pt>
 File: FIGS/num/squirrel-5000.png Graphic file (type png)
 
 <use FIGS/num/squirrel-5000.png>
-Package pdftex.def Info: FIGS/num/squirrel-5000.png used on input line 261.
+Package pdftex.def Info: FIGS/num/squirrel-5000.png used on input line 415.
 (pdftex.def)             Requested size: 150.32503pt x 112.9278pt.
 
-<FIGS/num/squirrel-7500.png, id=178, 1340.75906pt x 1007.26312pt>
+<FIGS/num/squirrel-7500.png, id=238, 1340.75906pt x 1007.26312pt>
 File: FIGS/num/squirrel-7500.png Graphic file (type png)
 
 <use FIGS/num/squirrel-7500.png>
-Package pdftex.def Info: FIGS/num/squirrel-7500.png used on input line 265.
+Package pdftex.def Info: FIGS/num/squirrel-7500.png used on input line 419.
 (pdftex.def)             Requested size: 150.32503pt x 112.92029pt.
 
-<FIGS/num/squirrel-2500-stippler.png, id=179, 1336.24219pt x 999.735pt>
+<FIGS/num/squirrel-2500-stippler.png, id=239, 1336.24219pt x 999.735pt>
 File: FIGS/num/squirrel-2500-stippler.png Graphic file (type png)
 
 <use FIGS/num/squirrel-2500-stippler.png>
 Package pdftex.def Info: FIGS/num/squirrel-2500-stippler.png used on input line
- 269.
+ 423.
 (pdftex.def)             Requested size: 150.32503pt x 112.4577pt.
 
-<FIGS/num/squirrel-5000-stippler.png, id=180, 1336.24219pt x 1001.24063pt>
+<FIGS/num/squirrel-5000-stippler.png, id=240, 1336.24219pt x 1001.24063pt>
 File: FIGS/num/squirrel-5000-stippler.png Graphic file (type png)
 
 <use FIGS/num/squirrel-5000-stippler.png>
 Package pdftex.def Info: FIGS/num/squirrel-5000-stippler.png used on input line
- 273.
+ 427.
 (pdftex.def)             Requested size: 150.32503pt x 112.62708pt.
 
-<FIGS/num/squirrel-7500-stippler.png, id=181, 1337.74782pt x 1001.99344pt>
+<FIGS/num/squirrel-7500-stippler.png, id=241, 1337.74782pt x 1001.99344pt>
 File: FIGS/num/squirrel-7500-stippler.png Graphic file (type png)
 
 <use FIGS/num/squirrel-7500-stippler.png>
 Package pdftex.def Info: FIGS/num/squirrel-7500-stippler.png used on input line
- 277.
+ 431.
 (pdftex.def)             Requested size: 150.32503pt x 112.58943pt.
 
-<FIGS/performance/hedcuter_erinking_che.png, id=182, 499.11469pt x 329.73187pt>
+<FIGS/performance/hedcuter_erinking_che.png, id=242, 499.11469pt x 329.73187pt>
 File: FIGS/performance/hedcuter_erinking_che.png Graphic file (type png)
 <use FIGS/performance/hedcuter_erinking_che.png>
 Package pdftex.def Info: FIGS/performance/hedcuter_erinking_che.png used on inp
-ut line 285.
+ut line 440.
 (pdftex.def)             Requested size: 197.29623pt x 130.34076pt.
 
-<FIGS/performance/voronoi_erinking_che.png, id=183, 496.85625pt x 327.47343pt>
+<FIGS/performance/voronoi_erinking_che.png, id=243, 496.85625pt x 327.47343pt>
 File: FIGS/performance/voronoi_erinking_che.png Graphic file (type png)
 
 <use FIGS/performance/voronoi_erinking_che.png>
 Package pdftex.def Info: FIGS/performance/voronoi_erinking_che.png used on inpu
-t line 289.
+t line 444.
 (pdftex.def)             Requested size: 197.29623pt x 130.03766pt.
 
-<FIGS/brightness/cat-b-40.png, id=192, 181.1568pt x 119.9682pt>
+<FIGS/brightness/cat-b-40.png, id=248, 181.1568pt x 119.9682pt>
 File: FIGS/brightness/cat-b-40.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b-40.png>
-Package pdftex.def Info: FIGS/brightness/cat-b-40.png used on input line 300.
+Package pdftex.def Info: FIGS/brightness/cat-b-40.png used on input line 453.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/brightness/cat-b-20.png, id=193, 181.1568pt x 119.9682pt>
+<FIGS/brightness/cat-b-20.png, id=249, 181.1568pt x 119.9682pt>
 File: FIGS/brightness/cat-b-20.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b-20.png>
-Package pdftex.def Info: FIGS/brightness/cat-b-20.png used on input line 304.
+Package pdftex.def Info: FIGS/brightness/cat-b-20.png used on input line 457.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/brightness/cat-b+20.png, id=194, 181.1568pt x 119.9682pt>
+<FIGS/brightness/cat-b+20.png, id=250, 181.1568pt x 119.9682pt>
 File: FIGS/brightness/cat-b+20.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b+20.png>
-Package pdftex.def Info: FIGS/brightness/cat-b+20.png used on input line 308.
+Package pdftex.def Info: FIGS/brightness/cat-b+20.png used on input line 461.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/brightness/cat-b+40.png, id=195, 181.1568pt x 119.9682pt>
+<FIGS/brightness/cat-b+40.png, id=251, 181.1568pt x 119.9682pt>
 File: FIGS/brightness/cat-b+40.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b+40.png>
-Package pdftex.def Info: FIGS/brightness/cat-b+40.png used on input line 312.
+Package pdftex.def Info: FIGS/brightness/cat-b+40.png used on input line 465.
 (pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
 
-<FIGS/brightness/cat-b-40-7500.png, id=196, 642.14906pt x 431.36156pt>
+<FIGS/brightness/cat-b-40-7500.png, id=252, 642.14906pt x 431.36156pt>
 File: FIGS/brightness/cat-b-40-7500.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b-40-7500.png>
-Package pdftex.def Info: FIGS/brightness/cat-b-40-7500.png used on input line 3
-16.
+Package pdftex.def Info: FIGS/brightness/cat-b-40-7500.png used on input line 4
+69.
 (pdftex.def)             Requested size: 103.34666pt x 69.42076pt.
 
-<FIGS/brightness/cat-b-20-7500.png, id=197, 641.39626pt x 431.36156pt>
+<FIGS/brightness/cat-b-20-7500.png, id=253, 641.39626pt x 431.36156pt>
 File: FIGS/brightness/cat-b-20-7500.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b-20-7500.png>
-Package pdftex.def Info: FIGS/brightness/cat-b-20-7500.png used on input line 3
-20.
+Package pdftex.def Info: FIGS/brightness/cat-b-20-7500.png used on input line 4
+73.
 (pdftex.def)             Requested size: 103.34666pt x 69.49974pt.
 
-<FIGS/brightness/cat-b+20-7500.png, id=198, 639.89063pt x 431.36156pt>
+<FIGS/brightness/cat-b+20-7500.png, id=254, 639.89063pt x 431.36156pt>
 File: FIGS/brightness/cat-b+20-7500.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b+20-7500.png>
-Package pdftex.def Info: FIGS/brightness/cat-b+20-7500.png used on input line 3
-24.
+Package pdftex.def Info: FIGS/brightness/cat-b+20-7500.png used on input line 4
+77.
 (pdftex.def)             Requested size: 103.34666pt x 69.66429pt.
 
-<FIGS/brightness/cat-b+40-7500.png, id=199, 639.13782pt x 431.36156pt>
+<FIGS/brightness/cat-b+40-7500.png, id=255, 639.13782pt x 431.36156pt>
 File: FIGS/brightness/cat-b+40-7500.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b+40-7500.png>
-Package pdftex.def Info: FIGS/brightness/cat-b+40-7500.png used on input line 3
-28.
+Package pdftex.def Info: FIGS/brightness/cat-b+40-7500.png used on input line 4
+81.
 (pdftex.def)             Requested size: 103.34666pt x 69.74986pt.
 
-<FIGS/brightness/cat-b-40-stippler.png, id=200, 631.60968pt x 419.31656pt>
+<FIGS/brightness/cat-b-40-stippler.png, id=256, 631.60968pt x 419.31656pt>
 File: FIGS/brightness/cat-b-40-stippler.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b-40-stippler.png>
 Package pdftex.def Info: FIGS/brightness/cat-b-40-stippler.png used on input li
-ne 332.
+ne 485.
 (pdftex.def)             Requested size: 103.34666pt x 68.6084pt.
 
-<FIGS/brightness/cat-b-20-stippler.png, id=201, 630.85687pt x 419.31656pt>
+<FIGS/brightness/cat-b-20-stippler.png, id=257, 630.85687pt x 419.31656pt>
 File: FIGS/brightness/cat-b-20-stippler.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b-20-stippler.png>
 Package pdftex.def Info: FIGS/brightness/cat-b-20-stippler.png used on input li
-ne 336.
+ne 489.
 (pdftex.def)             Requested size: 103.34666pt x 68.69157pt.
 
-<FIGS/brightness/cat-b+20-stippler.png, id=202, 629.35126pt x 418.56375pt>
+<FIGS/brightness/cat-b+20-stippler.png, id=258, 629.35126pt x 418.56375pt>
 File: FIGS/brightness/cat-b+20-stippler.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b+20-stippler.png>
 Package pdftex.def Info: FIGS/brightness/cat-b+20-stippler.png used on input li
-ne 340.
+ne 493.
 (pdftex.def)             Requested size: 103.34666pt x 68.72792pt.
 
-<FIGS/brightness/cat-b+40-stippler.png, id=203, 629.35126pt x 417.81094pt>
+<FIGS/brightness/cat-b+40-stippler.png, id=259, 629.35126pt x 417.81094pt>
 File: FIGS/brightness/cat-b+40-stippler.png Graphic file (type png)
 
 <use FIGS/brightness/cat-b+40-stippler.png>
 Package pdftex.def Info: FIGS/brightness/cat-b+40-stippler.png used on input li
-ne 344.
+ne 497.
 (pdftex.def)             Requested size: 103.34666pt x 68.60431pt.
- [5 <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/size/cat-xsmall-750
-0.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/size/cat-small-7
-500.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/size/cat-middl
-e-7500.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/size/cat-la
-rge-7500.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/size/cat-
-xsmall-stippler.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/si
-ze/cat-small-stippler.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/F
-IGS/size/cat-middle-stippler.png>
-!pdfTeX error: pdflatex.exe: fflush() failed (Invalid argument)
- ==> Fatal error occurred, no output PDF file produced!
+
+<FIGS/contrast/cat-c-40.png, id=260, 181.1568pt x 119.9682pt>
+File: FIGS/contrast/cat-c-40.png Graphic file (type png)
+
+<use FIGS/contrast/cat-c-40.png>
+Package pdftex.def Info: FIGS/contrast/cat-c-40.png used on input line 506.
+(pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
+
+<FIGS/contrast/cat-c-20.png, id=261, 181.1568pt x 119.9682pt>
+File: FIGS/contrast/cat-c-20.png Graphic file (type png)
+
+<use FIGS/contrast/cat-c-20.png>
+Package pdftex.def Info: FIGS/contrast/cat-c-20.png used on input line 510.
+(pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
+
+<FIGS/contrast/cat-c+20.png, id=262, 181.1568pt x 119.9682pt>
+File: FIGS/contrast/cat-c+20.png Graphic file (type png)
+
+<use FIGS/contrast/cat-c+20.png>
+Package pdftex.def Info: FIGS/contrast/cat-c+20.png used on input line 514.
+(pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
+
+<FIGS/contrast/cat-c+40.png, id=263, 181.1568pt x 119.9682pt>
+File: FIGS/contrast/cat-c+40.png Graphic file (type png)
+
+<use FIGS/contrast/cat-c+40.png>
+Package pdftex.def Info: FIGS/contrast/cat-c+40.png used on input line 518.
+(pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
+
+<FIGS/contrast/cat-c-40-7500.png, id=264, 640.64343pt x 431.36156pt>
+File: FIGS/contrast/cat-c-40-7500.png Graphic file (type png)
+
+<use FIGS/contrast/cat-c-40-7500.png>
+Package pdftex.def Info: FIGS/contrast/cat-c-40-7500.png used on input line 522
+.
+(pdftex.def)             Requested size: 103.34666pt x 69.58531pt.
+
+<FIGS/contrast/cat-c-20-7500.png, id=265, 640.64343pt x 431.36156pt>
+File: FIGS/contrast/cat-c-20-7500.png Graphic file (type png)
+
+<use FIGS/contrast/cat-c-20-7500.png>
+Package pdftex.def Info: FIGS/contrast/cat-c-20-7500.png used on input line 526
+.
+(pdftex.def)             Requested size: 103.34666pt x 69.58531pt.
+
+<FIGS/contrast/cat-c+20-7500.png, id=266, 641.39626pt x 431.36156pt>
+File: FIGS/contrast/cat-c+20-7500.png Graphic file (type png)
+
+<use FIGS/contrast/cat-c+20-7500.png>
+Package pdftex.def Info: FIGS/contrast/cat-c+20-7500.png used on input line 530
+.
+(pdftex.def)             Requested size: 103.34666pt x 69.49974pt.
+
+<FIGS/contrast/cat-c+40-7500.png, id=267, 641.39626pt x 431.36156pt>
+File: FIGS/contrast/cat-c+40-7500.png Graphic file (type png)
+
+<use FIGS/contrast/cat-c+40-7500.png>
+Package pdftex.def Info: FIGS/contrast/cat-c+40-7500.png used on input line 534
+.
+(pdftex.def)             Requested size: 103.34666pt x 69.49974pt.
+
+<FIGS/contrast/cat-c-40-stippler.png, id=268, 630.85687pt x 418.56375pt>
+File: FIGS/contrast/cat-c-40-stippler.png Graphic file (type png)
+
+<use FIGS/contrast/cat-c-40-stippler.png>
+Package pdftex.def Info: FIGS/contrast/cat-c-40-stippler.png used on input line
+ 538.
+(pdftex.def)             Requested size: 103.34666pt x 68.56825pt.
+
+<FIGS/contrast/cat-c-20-stippler.png, id=269, 630.10406pt x 418.56375pt>
+File: FIGS/contrast/cat-c-20-stippler.png Graphic file (type png)
+
+<use FIGS/contrast/cat-c-20-stippler.png>
+Package pdftex.def Info: FIGS/contrast/cat-c-20-stippler.png used on input line
+ 542.
+(pdftex.def)             Requested size: 103.34666pt x 68.6449pt.
+
+<FIGS/contrast/cat-c+20-stippler.png, id=270, 630.85687pt x 419.31656pt>
+File: FIGS/contrast/cat-c+20-stippler.png Graphic file (type png)
+
+<use FIGS/contrast/cat-c+20-stippler.png>
+Package pdftex.def Info: FIGS/contrast/cat-c+20-stippler.png used on input line
+ 546.
+(pdftex.def)             Requested size: 103.34666pt x 68.69157pt.
+
+<FIGS/contrast/cat-c+40-stippler.png, id=271, 630.85687pt x 419.31656pt>
+File: FIGS/contrast/cat-c+40-stippler.png Graphic file (type png)
+
+<use FIGS/contrast/cat-c+40-stippler.png>
+Package pdftex.def Info: FIGS/contrast/cat-c+40-stippler.png used on input line
+ 550.
+(pdftex.def)             Requested size: 103.34666pt x 68.69157pt.
+
+<FIGS/subpixels/Hurst.png, id=272, 346.29375pt x 252.945pt>
+File: FIGS/subpixels/Hurst.png Graphic file (type png)
+
+<use FIGS/subpixels/Hurst.png>
+Package pdftex.def Info: FIGS/subpixels/Hurst.png used on input line 559.
+(pdftex.def)             Requested size: 103.34666pt x 75.48654pt.
+
+<FIGS/subpixels/Hurst-5000.png, id=273, 371.4678pt x 274.26465pt>
+File: FIGS/subpixels/Hurst-5000.png Graphic file (type png)
+
+<use FIGS/subpixels/Hurst-5000.png>
+Package pdftex.def Info: FIGS/subpixels/Hurst-5000.png used on input line 563.
+(pdftex.def)             Requested size: 103.34666pt x 76.30394pt.
+
+<FIGS/subpixels/hurst-5000-subpixel5.png, id=274, 371.4678pt x 274.26465pt>
+File: FIGS/subpixels/hurst-5000-subpixel5.png Graphic file (type png)
+
+<use FIGS/subpixels/hurst-5000-subpixel5.png>
+Package pdftex.def Info: FIGS/subpixels/hurst-5000-subpixel5.png used on input 
+line 567.
+(pdftex.def)             Requested size: 103.34666pt x 76.30394pt.
+
+<FIGS/subpixels/hurst-5000-subpixel10.png, id=275, 371.4678pt x 273.9033pt>
+File: FIGS/subpixels/hurst-5000-subpixel10.png Graphic file (type png)
+
+<use FIGS/subpixels/hurst-5000-subpixel10.png>
+Package pdftex.def Info: FIGS/subpixels/hurst-5000-subpixel10.png used on input
+ line 571.
+(pdftex.def)             Requested size: 103.34666pt x 76.2034pt.
+
+<FIGS/subpixels/pallete.png, id=276, 417.05812pt x 285.31593pt>
+File: FIGS/subpixels/pallete.png Graphic file (type png)
+
+<use FIGS/subpixels/pallete.png>
+Package pdftex.def Info: FIGS/subpixels/pallete.png used on input line 575.
+(pdftex.def)             Requested size: 103.34666pt x 70.69754pt.
+
+<FIGS/subpixels/pallete-5000.png, id=277, 451.32616pt x 310.761pt>
+File: FIGS/subpixels/pallete-5000.png Graphic file (type png)
+
+<use FIGS/subpixels/pallete-5000.png>
+Package pdftex.def Info: FIGS/subpixels/pallete-5000.png used on input line 579
+.
+(pdftex.def)             Requested size: 103.34666pt x 71.15582pt.
+
+<FIGS/subpixels/pallete-5000-subpiexels5.png, id=278, 451.32616pt x 310.761pt>
+File: FIGS/subpixels/pallete-5000-subpiexels5.png Graphic file (type png)
+
+<use FIGS/subpixels/pallete-5000-subpiexels5.png>
+Package pdftex.def Info: FIGS/subpixels/pallete-5000-subpiexels5.png used on in
+put line 583.
+(pdftex.def)             Requested size: 103.34666pt x 71.15582pt.
+
+<FIGS/subpixels/pallete-5000-subpixels10.png, id=279, 451.32616pt x 310.761pt>
+File: FIGS/subpixels/pallete-5000-subpixels10.png Graphic file (type png)
+
+<use FIGS/subpixels/pallete-5000-subpixels10.png>
+Package pdftex.def Info: FIGS/subpixels/pallete-5000-subpixels10.png used on in
+put line 587.
+(pdftex.def)             Requested size: 103.34666pt x 71.15582pt.
+
+<FIGS/subpixels/test.png, id=280, 188.20313pt x 188.20313pt>
+File: FIGS/subpixels/test.png Graphic file (type png)
+
+<use FIGS/subpixels/test.png>
+Package pdftex.def Info: FIGS/subpixels/test.png used on input line 591.
+(pdftex.def)             Requested size: 103.34666pt x 103.34834pt.
+
+<FIGS/subpixels/test-1000.png, id=281, 418.56375pt x 420.06938pt>
+File: FIGS/subpixels/test-1000.png Graphic file (type png)
+
+<use FIGS/subpixels/test-1000.png>
+Package pdftex.def Info: FIGS/subpixels/test-1000.png used on input line 595.
+(pdftex.def)             Requested size: 103.34666pt x 103.71591pt.
+
+<FIGS/subpixels/test-1000_subpixels03.png, id=282, 420.06938pt x 421.575pt>
+File: FIGS/subpixels/test-1000_subpixels03.png Graphic file (type png)
+
+<use FIGS/subpixels/test-1000_subpixels03.png>
+Package pdftex.def Info: FIGS/subpixels/test-1000_subpixels03.png used on input
+ line 599.
+(pdftex.def)             Requested size: 103.34666pt x 103.71454pt.
+
+<FIGS/subpixels/test-1000_subpixels05.png, id=283, 420.82219pt x 420.06938pt>
+File: FIGS/subpixels/test-1000_subpixels05.png Graphic file (type png)
+
+<use FIGS/subpixels/test-1000_subpixels05.png>
+Package pdftex.def Info: FIGS/subpixels/test-1000_subpixels05.png used on input
+ line 603.
+(pdftex.def)             Requested size: 103.34666pt x 103.15826pt.
+
+<FIGS/color/good/a.png, id=284, 263.5446pt x 246.6816pt>
+File: FIGS/color/good/a.png Graphic file (type png)
+
+<use FIGS/color/good/a.png>
+Package pdftex.def Info: FIGS/color/good/a.png used on input line 612.
+(pdftex.def)             Requested size: 103.34666pt x 96.73239pt.
+
+<FIGS/color/good/a-5000.png, id=285, 875.55106pt x 817.01234pt>
+File: FIGS/color/good/a-5000.png Graphic file (type png)
+
+<use FIGS/color/good/a-5000.png>
+Package pdftex.def Info: FIGS/color/good/a-5000.png used on input line 616.
+(pdftex.def)             Requested size: 103.34666pt x 96.42906pt.
+
+<FIGS/color/good/drawing.png, id=286, 925.056pt x 1138.9752pt>
+File: FIGS/color/good/drawing.png Graphic file (type png)
+
+<use FIGS/color/good/drawing.png>
+Package pdftex.def Info: FIGS/color/good/drawing.png used on input line 620.
+(pdftex.def)             Requested size: 103.34666pt x 127.23415pt.
+
+<FIGS/color/good/drawing-5000.png, id=287, 1020.4524pt x 1257.498pt>
+File: FIGS/color/good/drawing-5000.png Graphic file (type png)
+
+<use FIGS/color/good/drawing-5000.png>
+Package pdftex.def Info: FIGS/color/good/drawing-5000.png used on input line 62
+4.
+(pdftex.def)             Requested size: 103.34666pt x 127.34975pt.
+
+<FIGS/color/good/Hurst.png, id=288, 346.29375pt x 252.945pt>
+File: FIGS/color/good/Hurst.png Graphic file (type png)
+
+<use FIGS/color/good/Hurst.png>
+Package pdftex.def Info: FIGS/color/good/Hurst.png used on input line 628.
+(pdftex.def)             Requested size: 103.34666pt x 75.48654pt.
+
+<FIGS/color/good/Hurst-5000.png, id=289, 371.4678pt x 274.26465pt>
+File: FIGS/color/good/Hurst-5000.png Graphic file (type png)
+
+<use FIGS/color/good/Hurst-5000.png>
+Package pdftex.def Info: FIGS/color/good/Hurst-5000.png used on input line 632.
+
+(pdftex.def)             Requested size: 103.34666pt x 76.30394pt.
+
+<FIGS/color/good/pallete.png, id=290, 417.05812pt x 285.31593pt>
+File: FIGS/color/good/pallete.png Graphic file (type png)
+
+<use FIGS/color/good/pallete.png>
+Package pdftex.def Info: FIGS/color/good/pallete.png used on input line 636.
+(pdftex.def)             Requested size: 103.34666pt x 70.69754pt.
+
+<FIGS/color/good/pallete-5000.png, id=291, 451.32616pt x 310.761pt>
+File: FIGS/color/good/pallete-5000.png Graphic file (type png)
+
+<use FIGS/color/good/pallete-5000.png>
+Package pdftex.def Info: FIGS/color/good/pallete-5000.png used on input line 64
+0.
+(pdftex.def)             Requested size: 103.34666pt x 71.15582pt.
+
+<FIGS/color/good/sky.png, id=292, 963.6pt x 1284.8pt>
+File: FIGS/color/good/sky.png Graphic file (type png)
+
+<use FIGS/color/good/sky.png>
+Package pdftex.def Info: FIGS/color/good/sky.png used on input line 644.
+(pdftex.def)             Requested size: 103.34666pt x 137.78003pt.
+
+<FIGS/color/good/sky-5000.png, id=293, 768.59145pt x 1025.14995pt>
+File: FIGS/color/good/sky-5000.png Graphic file (type png)
+
+<use FIGS/color/good/sky-5000.png>
+Package pdftex.def Info: FIGS/color/good/sky-5000.png used on input line 648.
+(pdftex.def)             Requested size: 103.34666pt x 137.84178pt.
+
+<FIGS/color/bad/00.png, id=294, 803.25093pt x 593.96906pt>
+File: FIGS/color/bad/00.png Graphic file (type png)
+
+<use FIGS/color/bad/00.png>
+Package pdftex.def Info: FIGS/color/bad/00.png used on input line 656.
+(pdftex.def)             Requested size: 103.34666pt x 76.41205pt.
+
+<FIGS/color/bad/00-5000.png, id=295, 858.92896pt x 636.33736pt>
+File: FIGS/color/bad/00-5000.png Graphic file (type png)
+
+<use FIGS/color/bad/00-5000.png>
+Package pdftex.def Info: FIGS/color/bad/00-5000.png used on input line 660.
+(pdftex.def)             Requested size: 103.34666pt x 76.56108pt.
+
+<FIGS/color/bad/canada1.png, id=296, 1927.2pt x 1445.4pt>
+File: FIGS/color/bad/canada1.png Graphic file (type png)
+
+<use FIGS/color/bad/canada1.png>
+Package pdftex.def Info: FIGS/color/bad/canada1.png used on input line 664.
+(pdftex.def)             Requested size: 103.34666pt x 77.50127pt.
+
+<FIGS/color/bad/canada1-5000.png, id=297, 2046.6864pt x 1530.31725pt>
+File: FIGS/color/bad/canada1-5000.png Graphic file (type png)
+
+<use FIGS/color/bad/canada1-5000.png>
+Package pdftex.def Info: FIGS/color/bad/canada1-5000.png used on input line 668
+.
+(pdftex.def)             Requested size: 103.34666pt x 77.26756pt.
+
+<FIGS/color/bad/diamond.png, id=298, 719.68875pt x 504.38437pt>
+File: FIGS/color/bad/diamond.png Graphic file (type png)
+
+<use FIGS/color/bad/diamond.png>
+Package pdftex.def Info: FIGS/color/bad/diamond.png used on input line 672.
+(pdftex.def)             Requested size: 103.34666pt x 72.42964pt.
+
+<FIGS/color/bad/diamond-5000.png, id=299, 766.7847pt x 537.6888pt>
+File: FIGS/color/bad/diamond-5000.png Graphic file (type png)
+
+<use FIGS/color/bad/diamond-5000.png>
+Package pdftex.def Info: FIGS/color/bad/diamond-5000.png used on input line 676
+.
+(pdftex.def)             Requested size: 103.34666pt x 72.46178pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 679.
+ [6] [7 <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/simple_result/L
+incoln.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/simple_resu
+lt/Lincoln-5000.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/si
+mple_result/Lincoln-stippler.png> <C:/Users/Yeojin/Documents/GitHub/stippling/r
+eport/FIGS/simple_result/che-guevara-medium.png> <C:/Users/Yeojin/Documents/Git
+Hub/stippling/report/FIGS/simple_result/che-guevara-medium-5000.png> <C:/Users/
+Yeojin/Documents/GitHub/stippling/report/FIGS/simple_result/che-guevara-medium-
+stippler.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/simple_re
+sult/erinking.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/simp
+le_result/erinking-5000.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report
+/FIGS/simple_result/erinking-stippler.png>] [8 <C:/Users/Yeojin/Documents/GitHu
+b/stippling/report/FIGS/simple_result/einstein.png> <C:/Users/Yeojin/Documents/
+GitHub/stippling/report/FIGS/simple_result/einstein-5000.png> <C:/Users/Yeojin/
+Documents/GitHub/stippling/report/FIGS/simple_result/einstein-stippler.png> <C:
+/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/simple_result/einstein-med
+ium.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/simple_result/
+einstein-medium-5000.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FI
+GS/simple_result/einstein-medium-stippler.png> <C:/Users/Yeojin/Documents/GitHu
+b/stippling/report/FIGS/simple_result/fairyeyes.png> <C:/Users/Yeojin/Documents
+/GitHub/stippling/report/FIGS/simple_result/fairyeyes-5000.png> <C:/Users/Yeoji
+n/Documents/GitHub/stippling/report/FIGS/simple_result/fairyeyes-stippler.png>]
+ [9 <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/simple_result/gradi
+ent.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/simple_result/
+gradient-5000.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/simp
+le_result/gradient-stippler.png> <C:/Users/Yeojin/Documents/GitHub/stippling/re
+port/FIGS/simple_result/klaymen.png> <C:/Users/Yeojin/Documents/GitHub/stipplin
+g/report/FIGS/simple_result/klaymen-5000.png> <C:/Users/Yeojin/Documents/GitHub
+/stippling/report/FIGS/simple_result/klaymen-stippler.png> <C:/Users/Yeojin/Doc
+uments/GitHub/stippling/report/FIGS/simple_result/phoenix.png> <C:/Users/Yeojin
+/Documents/GitHub/stippling/report/FIGS/simple_result/phoenix-5000.png> <C:/Use
+rs/Yeojin/Documents/GitHub/stippling/report/FIGS/simple_result/phoenix-stippler
+.png>] [10 <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/simple_resul
+t/squirrel.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/simple_
+result/squirrel-5000.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FI
+GS/simple_result/squirrel-stippler.png> <C:/Users/Yeojin/Documents/GitHub/stipp
+ling/report/FIGS/sameInput/squirrel-h-5000_01.png> <C:/Users/Yeojin/Documents/G
+itHub/stippling/report/FIGS/sameInput/squirrel-h-5000_02.png> <C:/Users/Yeojin/
+Documents/GitHub/stippling/report/FIGS/sameInput/squirrel-h-5000_03.png> <C:/Us
+ers/Yeojin/Documents/GitHub/stippling/report/FIGS/sameInput/squirrel-stippler_0
+1.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/sameInput/squirr
+el-stippler_02.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/sam
+eInput/squirrel-stippler_03.png>] [11 <C:/Users/Yeojin/Documents/GitHub/stippli
+ng/report/FIGS/size/cat-xsmall-7500.png> <C:/Users/Yeojin/Documents/GitHub/stip
+pling/report/FIGS/size/cat-small-7500.png> <C:/Users/Yeojin/Documents/GitHub/st
+ippling/report/FIGS/size/cat-middle-7500.png> <C:/Users/Yeojin/Documents/GitHub
+/stippling/report/FIGS/size/cat-large-7500.png> <C:/Users/Yeojin/Documents/GitH
+ub/stippling/report/FIGS/size/cat-xsmall-stippler.png> <C:/Users/Yeojin/Documen
+ts/GitHub/stippling/report/FIGS/size/cat-small-stippler.png> <C:/Users/Yeojin/D
+ocuments/GitHub/stippling/report/FIGS/size/cat-middle-stippler.png> <C:/Users/Y
+eojin/Documents/GitHub/stippling/report/FIGS/size/cat-large-stippler.png> <C:/U
+sers/Yeojin/Documents/GitHub/stippling/report/FIGS/num/squirrel-2500.png> <C:/U
+sers/Yeojin/Documents/GitHub/stippling/report/FIGS/num/squirrel-5000.png> <C:/U
+sers/Yeojin/Documents/GitHub/stippling/report/FIGS/num/squirrel-7500.png> <C:/U
+sers/Yeojin/Documents/GitHub/stippling/report/FIGS/num/squirrel-2500-stippler.p
+ng> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/num/squirrel-5000-s
+tippler.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/num/squirr
+el-7500-stippler.png>] [12 <C:/Users/Yeojin/Documents/GitHub/stippling/report/F
+IGS/performance/hedcuter_erinking_che.png> <C:/Users/Yeojin/Documents/GitHub/st
+ippling/report/FIGS/performance/voronoi_erinking_che.png> <C:/Users/Yeojin/Docu
+ments/GitHub/stippling/report/FIGS/brightness/cat-b-40.png> <C:/Users/Yeojin/Do
+cuments/GitHub/stippling/report/FIGS/brightness/cat-b-20.png> <C:/Users/Yeojin/
+Documents/GitHub/stippling/report/FIGS/brightness/cat-b+20.png> <C:/Users/Yeoji
+n/Documents/GitHub/stippling/report/FIGS/brightness/cat-b+40.png> <C:/Users/Yeo
+jin/Documents/GitHub/stippling/report/FIGS/brightness/cat-b-40-7500.png> <C:/Us
+ers/Yeojin/Documents/GitHub/stippling/report/FIGS/brightness/cat-b-20-7500.png>
+ <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/brightness/cat-b+20-75
+00.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/brightness/cat-
+b+40-7500.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/brightne
+ss/cat-b-40-stippler.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FI
+GS/brightness/cat-b-20-stippler.png> <C:/Users/Yeojin/Documents/GitHub/stipplin
+g/report/FIGS/brightness/cat-b+20-stippler.png> <C:/Users/Yeojin/Documents/GitH
+ub/stippling/report/FIGS/brightness/cat-b+40-stippler.png>] [13 <C:/Users/Yeoji
+n/Documents/GitHub/stippling/report/FIGS/contrast/cat-c-40.png> <C:/Users/Yeoji
+n/Documents/GitHub/stippling/report/FIGS/contrast/cat-c-20.png> <C:/Users/Yeoji
+n/Documents/GitHub/stippling/report/FIGS/contrast/cat-c+20.png> <C:/Users/Yeoji
+n/Documents/GitHub/stippling/report/FIGS/contrast/cat-c+40.png> <C:/Users/Yeoji
+n/Documents/GitHub/stippling/report/FIGS/contrast/cat-c-40-7500.png> <C:/Users/
+Yeojin/Documents/GitHub/stippling/report/FIGS/contrast/cat-c-20-7500.png> <C:/U
+sers/Yeojin/Documents/GitHub/stippling/report/FIGS/contrast/cat-c+20-7500.png> 
+<C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/contrast/cat-c+40-7500.
+png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/contrast/cat-c-40-
+stippler.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/contrast/
+cat-c-20-stippler.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/
+contrast/cat-c+20-stippler.png> <C:/Users/Yeojin/Documents/GitHub/stippling/rep
+ort/FIGS/contrast/cat-c+40-stippler.png>]
+[14 <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/subpixels/Hurst.png
+> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/subpixels/Hurst-5000.
+png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/subpixels/hurst-50
+00-subpixel5.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/subpi
+xels/hurst-5000-subpixel10.png> <C:/Users/Yeojin/Documents/GitHub/stippling/rep
+ort/FIGS/subpixels/pallete.png> <C:/Users/Yeojin/Documents/GitHub/stippling/rep
+ort/FIGS/subpixels/pallete-5000.png> <C:/Users/Yeojin/Documents/GitHub/stipplin
+g/report/FIGS/subpixels/pallete-5000-subpiexels5.png> <C:/Users/Yeojin/Document
+s/GitHub/stippling/report/FIGS/subpixels/pallete-5000-subpixels10.png> <C:/User
+s/Yeojin/Documents/GitHub/stippling/report/FIGS/subpixels/test.png> <C:/Users/Y
+eojin/Documents/GitHub/stippling/report/FIGS/subpixels/test-1000.png> <C:/Users
+/Yeojin/Documents/GitHub/stippling/report/FIGS/subpixels/test-1000_subpixels03.
+png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/subpixels/test-100
+0_subpixels05.png>] [15 <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS
+/color/good/a.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/colo
+r/good/a-5000.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/colo
+r/good/drawing.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/col
+or/good/drawing-5000.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FI
+GS/color/good/Hurst.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIG
+S/color/good/Hurst-5000.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report
+/FIGS/color/good/pallete.png> <C:/Users/Yeojin/Documents/GitHub/stippling/repor
+t/FIGS/color/good/pallete-5000.png> <C:/Users/Yeojin/Documents/GitHub/stippling
+/report/FIGS/color/good/sky.png> <C:/Users/Yeojin/Documents/GitHub/stippling/re
+port/FIGS/color/good/sky-5000.png>] [16 <C:/Users/Yeojin/Documents/GitHub/stipp
+ling/report/FIGS/color/bad/00.png> <C:/Users/Yeojin/Documents/GitHub/stippling/
+report/FIGS/color/bad/00-5000.png> <C:/Users/Yeojin/Documents/GitHub/stippling/
+report/FIGS/color/bad/canada1.png> <C:/Users/Yeojin/Documents/GitHub/stippling/
+report/FIGS/color/bad/canada1-5000.png> <C:/Users/Yeojin/Documents/GitHub/stipp
+ling/report/FIGS/color/bad/diamond.png> <C:/Users/Yeojin/Documents/GitHub/stipp
+ling/report/FIGS/color/bad/diamond-5000.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 679.
+
+(C:\Users\Yeojin\Documents\GitHub\stippling\report\report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 679.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 679.
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: C49F2A654391EE29A0B9F4E28570861A;870.
+Package rerunfilecheck Info: File `report.brf' has not changed.
+(rerunfilecheck)             Checksum: 6733854B21D188B58D2ECB72E53CDF80;332.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 679.
+ ) 
+Here is how much of TeX's memory you used:
+ 8198 strings out of 493921
+ 128446 string characters out of 3147279
+ 255312 words of memory out of 3000000
+ 11104 multiletter control sequences out of 15000+200000
+ 11390 words of font info for 44 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 32i,8n,28p,1045b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb>
+Output written on report.pdf (16 pages, 65589882 bytes).
+PDF statistics:
+ 634 PDF objects out of 1000 (max. 8388607)
+ 169 named destinations out of 1000 (max. 500000)
+ 655 words of extra memory for PDF output out of 10000 (max. 10000000)
+
