@@ -1,0 +1,798 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.27)  27 NOV 2015 14:25
+entering extended mode
+**C:/Users/Yeojin/Documents/GitHub/stippling/report/report.tex
+(C:/Users/Yeojin/Documents/GitHub/stippling/report/report.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count87
+\float@exts=\toks14
+\float@box=\box26
+\@float@everytoks=\toks15
+\@floatcapt=\box27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks16
+\c@algorithm=\count88
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count89
+\c@ALG@rem=\count90
+\c@ALG@nested=\count91
+\ALG@tlm=\skip43
+\ALG@thistlm=\skip44
+\c@ALG@Lnr=\count92
+\c@ALG@blocknr=\count93
+\c@ALG@storecount=\count94
+\c@ALG@tmpcounter=\count95
+\ALG@tmplength=\skip45
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen103
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count96
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count97
+\leftroot@=\count98
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count101
+\c@MaxMatrixCols=\count102
+\dotsspace@=\muskip10
+\c@parentequation=\count103
+\dspbrk@lvl=\count104
+\tag@help=\toks18
+\row@=\count105
+\column@=\count106
+\maxfields@=\count107
+\andhelp@=\toks19
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks20
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip49
+\thm@postskip=\skip50
+\thm@headsep=\skip51
+\dth@everypar=\toks27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks28
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count108
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen114
+\WF@size=\dimen115
+\c@WF@wrappedlines=\count109
+\WF@box=\box30
+\WF@everypar=\toks29
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pseudocode\pseudocode.sty"
+** 
+** Document Style `pseudocode' - environment 
+** by D.L. Kreher and D.R. Stinson 
+** 
+** The pseudocode environment was originally developed for the book
+** Combinatorial Algorithms: Enumeration, Generation, and Search
+** CRC Press, 1999. 
+Package: pseudocode 
+\pcode@width=\skip52
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancybox\fancybox.sty"
+Package: fancybox 2010/05/15 1.4
+
+Style option: `fancybox' v1.4 <2010/05/15> (tvz)
+\@fancybox=\box31
+\shadowsize=\dimen116
+\@Sbox=\box32
+\do@VerbBox=\toks30
+\the@fancyput=\toks31
+\this@fancyput=\toks32
+\EndVerbatimTokens=\toks33
+\Verbatim@Outfile=\write3
+\Verbatim@Infile=\read1
+)
+\c@pseudocode=\count110
+\c@pseudonum=\count111
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip53
+\subfigcapskip=\skip54
+\subfigcaptopadj=\dimen117
+\subfigbottomskip=\skip55
+\subfigcapmargin=\dimen118
+\subfiglabelskip=\skip56
+\c@subfigure=\count112
+\c@lofdepth=\count113
+\c@subtable=\count114
+\c@lotdepth=\count115
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip57
+\subfig@bottom=\skip58
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen119
+\Hy@linkcounter=\count116
+\Hy@pagecounter=\count117
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count118
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing ON on input line 4461.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\backref.sty"
+Package: backref 2012/07/25 v1.38 Bibliographical back referencing
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+\c@Hy@tempcnt=\count119
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen120
+\Fld@menulength=\count120
+\Field@Width=\dimen121
+\Fld@charsize=\dimen122
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing ON on input line 6308.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count121
+\c@Item=\count122
+\c@Hfootnote=\count123
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
+\Hy@SectionHShift=\skip59
+)
+\c@theorem=\count126
+
+(C:\Users\Yeojin\Documents\GitHub\stippling\report\report.aux
+
+LaTeX Warning: Label `fig:cat_s' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:cat_s' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat_s' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:cat_s' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat_xs' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:cat_xs' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat_s' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:cat_s' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat_s' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:cat_s' multiply defined.
+
+
+LaTeX Warning: Label `fig:cat_s' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:cat_s' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count127
+\scratchdimen=\dimen123
+\scratchbox=\box33
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen124
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
+\everyMPtoPDFconversion=\toks35
+)
+\AtBeginShipoutBox=\box34
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+Package hyperref Info: Link coloring ON on input line 59.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count133
+)
+LaTeX Info: Redefining \ref on input line 59.
+LaTeX Info: Redefining \pageref on input line 59.
+LaTeX Info: Redefining \nameref on input line 59.
+
+(C:\Users\Yeojin\Documents\GitHub\stippling\report\report.out)
+(C:\Users\Yeojin\Documents\GitHub\stippling\report\report.out)
+\@outlinefile=\write4
+LaTeX Font Info:    Try loading font information for U+lasy on input line 67.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 108.
+
+
+LaTeX Warning: Reference `fig:samples' on page 2 undefined on input line 117.
+
+<FIGS/voronoi.png, id=86, 462.97969pt x 370.38374pt>
+File: FIGS/voronoi.png Graphic file (type png)
+ <use FIGS/voronoi.png>
+Package pdftex.def Info: FIGS/voronoi.png used on input line 123.
+(pdftex.def)             Requested size: 150.32503pt x 120.26025pt.
+
+<FIGS/cell.png, id=88, 469.755pt x 373.395pt>
+File: FIGS/cell.png Graphic file (type png)
+ <use FIGS/cell.png>
+Package pdftex.def Info: FIGS/cell.png used on input line 127.
+(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
+
+<FIGS/clippingLine.png, id=89, 469.755pt x 373.395pt>
+File: FIGS/clippingLine.png Graphic file (type png)
+
+<use FIGS/clippingLine.png>
+Package pdftex.def Info: FIGS/clippingLine.png used on input line 131.
+(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
+ <FIGS/subpixel.png, id=90, 469.755pt x 373.395pt>
+File: FIGS/subpixel.png Graphic file (type png)
+
+<use FIGS/subpixel.png>
+Package pdftex.def Info: FIGS/subpixel.png used on input line 135.
+(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
+ <FIGS/inandout.png, id=91, 469.755pt x 373.395pt>
+File: FIGS/inandout.png Graphic file (type png)
+
+<use FIGS/inandout.png>
+Package pdftex.def Info: FIGS/inandout.png used on input line 139.
+(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
+ <FIGS/integral.png, id=92, 469.755pt x 373.395pt>
+File: FIGS/integral.png Graphic file (type png)
+
+<use FIGS/integral.png>
+Package pdftex.def Info: FIGS/integral.png used on input line 143.
+(pdftex.def)             Requested size: 150.32503pt x 119.48883pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--164
+
+ []
+
+[2] [3 <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/voronoi.png> <C:
+/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/cell.png> <C:/Users/Yeojin
+/Documents/GitHub/stippling/report/FIGS/clippingLine.png> <C:/Users/Yeojin/Docu
+ments/GitHub/stippling/report/FIGS/subpixel.png> <C:/Users/Yeojin/Documents/Git
+Hub/stippling/report/FIGS/inandout.png> <C:/Users/Yeojin/Documents/GitHub/stipp
+ling/report/FIGS/integral.png>]
+<FIGS/sameInput/squirrel-h-5000_01.png, id=139, 1337.74782pt x 1004.25188pt>
+File: FIGS/sameInput/squirrel-h-5000_01.png Graphic file (type png)
+
+<use FIGS/sameInput/squirrel-h-5000_01.png>
+Package pdftex.def Info: FIGS/sameInput/squirrel-h-5000_01.png used on input li
+ne 188.
+(pdftex.def)             Requested size: 150.32503pt x 112.8432pt.
+
+<FIGS/sameInput/squirrel-h-5000_02.png, id=140, 1338.50063pt x 1003.49907pt>
+File: FIGS/sameInput/squirrel-h-5000_02.png Graphic file (type png)
+
+<use FIGS/sameInput/squirrel-h-5000_02.png>
+Package pdftex.def Info: FIGS/sameInput/squirrel-h-5000_02.png used on input li
+ne 192.
+(pdftex.def)             Requested size: 150.32503pt x 112.69737pt.
+
+<FIGS/sameInput/squirrel-h-5000_03.png, id=141, 1337.74782pt x 1005.00468pt>
+File: FIGS/sameInput/squirrel-h-5000_03.png Graphic file (type png)
+
+<use FIGS/sameInput/squirrel-h-5000_03.png>
+Package pdftex.def Info: FIGS/sameInput/squirrel-h-5000_03.png used on input li
+ne 196.
+(pdftex.def)             Requested size: 150.32503pt x 112.9278pt.
+
+<FIGS/sameInput/squirrel-stippler_01.png, id=142, 641.39626pt x 480.5955pt>
+File: FIGS/sameInput/squirrel-stippler_01.png Graphic file (type png)
+
+<use FIGS/sameInput/squirrel-stippler_01.png>
+Package pdftex.def Info: FIGS/sameInput/squirrel-stippler_01.png used on input 
+line 200.
+(pdftex.def)             Requested size: 150.32503pt x 112.63196pt.
+
+<FIGS/sameInput/squirrel-stippler_02.png, id=143, 641.39626pt x 480.5955pt>
+File: FIGS/sameInput/squirrel-stippler_02.png Graphic file (type png)
+
+<use FIGS/sameInput/squirrel-stippler_02.png>
+Package pdftex.def Info: FIGS/sameInput/squirrel-stippler_02.png used on input 
+line 204.
+(pdftex.def)             Requested size: 150.32503pt x 112.63196pt.
+
+<FIGS/sameInput/squirrel-stippler_03.png, id=144, 641.39626pt x 480.5955pt>
+File: FIGS/sameInput/squirrel-stippler_03.png Graphic file (type png)
+
+<use FIGS/sameInput/squirrel-stippler_03.png>
+Package pdftex.def Info: FIGS/sameInput/squirrel-stippler_03.png used on input 
+line 208.
+(pdftex.def)             Requested size: 150.32503pt x 112.63196pt.
+
+<FIGS/size/cat-xsmall-7500.png, id=147, 847.66687pt x 569.87906pt>
+File: FIGS/size/cat-xsmall-7500.png Graphic file (type png)
+
+<use FIGS/size/cat-xsmall-7500.png>
+Package pdftex.def Info: FIGS/size/cat-xsmall-7500.png used on input line 218.
+(pdftex.def)             Requested size: 103.34666pt x 69.47818pt.
+
+<FIGS/size/cat-small-7500.png, id=148, 1262.46657pt x 847.66687pt>
+File: FIGS/size/cat-small-7500.png Graphic file (type png)
+
+<use FIGS/size/cat-small-7500.png>
+Package pdftex.def Info: FIGS/size/cat-small-7500.png used on input line 222.
+(pdftex.def)             Requested size: 103.34666pt x 69.37978pt.
+
+<FIGS/size/cat-middle-7500.png, id=149, 2510.62968pt x 1668.9853pt>
+File: FIGS/size/cat-middle-7500.png Graphic file (type png)
+
+<use FIGS/size/cat-middle-7500.png>
+Package pdftex.def Info: FIGS/size/cat-middle-7500.png used on input line 226.
+(pdftex.def)             Requested size: 103.34666pt x 68.6835pt.
+
+<FIGS/size/cat-large-7500.png, id=150, 5003.94469pt x 3323.66719pt>
+File: FIGS/size/cat-large-7500.png Graphic file (type png)
+
+<use FIGS/size/cat-large-7500.png>
+Package pdftex.def Info: FIGS/size/cat-large-7500.png used on input line 230.
+(pdftex.def)             Requested size: 103.34666pt x 68.6174pt.
+
+<FIGS/size/cat-xsmall-stippler.png, id=151, 402.5439pt x 268.8444pt>
+File: FIGS/size/cat-xsmall-stippler.png Graphic file (type png)
+
+<use FIGS/size/cat-xsmall-stippler.png>
+Package pdftex.def Info: FIGS/size/cat-xsmall-stippler.png used on input line 2
+34.
+(pdftex.def)             Requested size: 103.34666pt x 69.02002pt.
+
+<FIGS/size/cat-small-stippler.png, id=152, 603.81586pt x 402.5439pt>
+File: FIGS/size/cat-small-stippler.png Graphic file (type png)
+
+<use FIGS/size/cat-small-stippler.png>
+Package pdftex.def Info: FIGS/size/cat-small-stippler.png used on input line 23
+8.
+(pdftex.def)             Requested size: 103.34666pt x 68.89223pt.
+
+<FIGS/size/cat-middle-stippler.png, id=153, 1206.1863pt x 804.72646pt>
+File: FIGS/size/cat-middle-stippler.png Graphic file (type png)
+
+<use FIGS/size/cat-middle-stippler.png>
+Package pdftex.def Info: FIGS/size/cat-middle-stippler.png used on input line 2
+42.
+(pdftex.def)             Requested size: 103.34666pt x 68.94727pt.
+
+<FIGS/size/cat-large-stippler.png, id=154, 2413.0953pt x 1607.2848pt>
+File: FIGS/size/cat-large-stippler.png Graphic file (type png)
+
+<use FIGS/size/cat-large-stippler.png>
+Package pdftex.def Info: FIGS/size/cat-large-stippler.png used on input line 24
+6.
+(pdftex.def)             Requested size: 103.34666pt x 68.8176pt.
+ [4 <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/sameInput/squirrel-
+h-5000_01.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/sameInpu
+t/squirrel-h-5000_02.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FI
+GS/sameInput/squirrel-h-5000_03.png> <C:/Users/Yeojin/Documents/GitHub/stipplin
+g/report/FIGS/sameInput/squirrel-stippler_01.png> <C:/Users/Yeojin/Documents/Gi
+tHub/stippling/report/FIGS/sameInput/squirrel-stippler_02.png> <C:/Users/Yeojin
+/Documents/GitHub/stippling/report/FIGS/sameInput/squirrel-stippler_03.png>]
+<FIGS/num/squirrel-2500.png, id=176, 1336.24219pt x 997.47656pt>
+File: FIGS/num/squirrel-2500.png Graphic file (type png)
+
+<use FIGS/num/squirrel-2500.png>
+Package pdftex.def Info: FIGS/num/squirrel-2500.png used on input line 257.
+(pdftex.def)             Requested size: 150.32503pt x 112.20366pt.
+
+<FIGS/num/squirrel-5000.png, id=177, 1337.74782pt x 1005.00468pt>
+File: FIGS/num/squirrel-5000.png Graphic file (type png)
+
+<use FIGS/num/squirrel-5000.png>
+Package pdftex.def Info: FIGS/num/squirrel-5000.png used on input line 261.
+(pdftex.def)             Requested size: 150.32503pt x 112.9278pt.
+
+<FIGS/num/squirrel-7500.png, id=178, 1340.75906pt x 1007.26312pt>
+File: FIGS/num/squirrel-7500.png Graphic file (type png)
+
+<use FIGS/num/squirrel-7500.png>
+Package pdftex.def Info: FIGS/num/squirrel-7500.png used on input line 265.
+(pdftex.def)             Requested size: 150.32503pt x 112.92029pt.
+
+<FIGS/num/squirrel-2500-stippler.png, id=179, 1336.24219pt x 999.735pt>
+File: FIGS/num/squirrel-2500-stippler.png Graphic file (type png)
+
+<use FIGS/num/squirrel-2500-stippler.png>
+Package pdftex.def Info: FIGS/num/squirrel-2500-stippler.png used on input line
+ 269.
+(pdftex.def)             Requested size: 150.32503pt x 112.4577pt.
+
+<FIGS/num/squirrel-5000-stippler.png, id=180, 1336.24219pt x 1001.24063pt>
+File: FIGS/num/squirrel-5000-stippler.png Graphic file (type png)
+
+<use FIGS/num/squirrel-5000-stippler.png>
+Package pdftex.def Info: FIGS/num/squirrel-5000-stippler.png used on input line
+ 273.
+(pdftex.def)             Requested size: 150.32503pt x 112.62708pt.
+
+<FIGS/num/squirrel-7500-stippler.png, id=181, 1337.74782pt x 1001.99344pt>
+File: FIGS/num/squirrel-7500-stippler.png Graphic file (type png)
+
+<use FIGS/num/squirrel-7500-stippler.png>
+Package pdftex.def Info: FIGS/num/squirrel-7500-stippler.png used on input line
+ 277.
+(pdftex.def)             Requested size: 150.32503pt x 112.58943pt.
+
+<FIGS/performance/hedcuter_erinking_che.png, id=182, 499.11469pt x 329.73187pt>
+File: FIGS/performance/hedcuter_erinking_che.png Graphic file (type png)
+<use FIGS/performance/hedcuter_erinking_che.png>
+Package pdftex.def Info: FIGS/performance/hedcuter_erinking_che.png used on inp
+ut line 285.
+(pdftex.def)             Requested size: 197.29623pt x 130.34076pt.
+
+<FIGS/performance/voronoi_erinking_che.png, id=183, 496.85625pt x 327.47343pt>
+File: FIGS/performance/voronoi_erinking_che.png Graphic file (type png)
+
+<use FIGS/performance/voronoi_erinking_che.png>
+Package pdftex.def Info: FIGS/performance/voronoi_erinking_che.png used on inpu
+t line 289.
+(pdftex.def)             Requested size: 197.29623pt x 130.03766pt.
+
+<FIGS/brightness/cat-b-40.png, id=192, 181.1568pt x 119.9682pt>
+File: FIGS/brightness/cat-b-40.png Graphic file (type png)
+
+<use FIGS/brightness/cat-b-40.png>
+Package pdftex.def Info: FIGS/brightness/cat-b-40.png used on input line 300.
+(pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
+
+<FIGS/brightness/cat-b-20.png, id=193, 181.1568pt x 119.9682pt>
+File: FIGS/brightness/cat-b-20.png Graphic file (type png)
+
+<use FIGS/brightness/cat-b-20.png>
+Package pdftex.def Info: FIGS/brightness/cat-b-20.png used on input line 304.
+(pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
+
+<FIGS/brightness/cat-b+20.png, id=194, 181.1568pt x 119.9682pt>
+File: FIGS/brightness/cat-b+20.png Graphic file (type png)
+
+<use FIGS/brightness/cat-b+20.png>
+Package pdftex.def Info: FIGS/brightness/cat-b+20.png used on input line 308.
+(pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
+
+<FIGS/brightness/cat-b+40.png, id=195, 181.1568pt x 119.9682pt>
+File: FIGS/brightness/cat-b+40.png Graphic file (type png)
+
+<use FIGS/brightness/cat-b+40.png>
+Package pdftex.def Info: FIGS/brightness/cat-b+40.png used on input line 312.
+(pdftex.def)             Requested size: 103.34666pt x 68.43932pt.
+
+<FIGS/brightness/cat-b-40-7500.png, id=196, 642.14906pt x 431.36156pt>
+File: FIGS/brightness/cat-b-40-7500.png Graphic file (type png)
+
+<use FIGS/brightness/cat-b-40-7500.png>
+Package pdftex.def Info: FIGS/brightness/cat-b-40-7500.png used on input line 3
+16.
+(pdftex.def)             Requested size: 103.34666pt x 69.42076pt.
+
+<FIGS/brightness/cat-b-20-7500.png, id=197, 641.39626pt x 431.36156pt>
+File: FIGS/brightness/cat-b-20-7500.png Graphic file (type png)
+
+<use FIGS/brightness/cat-b-20-7500.png>
+Package pdftex.def Info: FIGS/brightness/cat-b-20-7500.png used on input line 3
+20.
+(pdftex.def)             Requested size: 103.34666pt x 69.49974pt.
+
+<FIGS/brightness/cat-b+20-7500.png, id=198, 639.89063pt x 431.36156pt>
+File: FIGS/brightness/cat-b+20-7500.png Graphic file (type png)
+
+<use FIGS/brightness/cat-b+20-7500.png>
+Package pdftex.def Info: FIGS/brightness/cat-b+20-7500.png used on input line 3
+24.
+(pdftex.def)             Requested size: 103.34666pt x 69.66429pt.
+
+<FIGS/brightness/cat-b+40-7500.png, id=199, 639.13782pt x 431.36156pt>
+File: FIGS/brightness/cat-b+40-7500.png Graphic file (type png)
+
+<use FIGS/brightness/cat-b+40-7500.png>
+Package pdftex.def Info: FIGS/brightness/cat-b+40-7500.png used on input line 3
+28.
+(pdftex.def)             Requested size: 103.34666pt x 69.74986pt.
+
+<FIGS/brightness/cat-b-40-stippler.png, id=200, 631.60968pt x 419.31656pt>
+File: FIGS/brightness/cat-b-40-stippler.png Graphic file (type png)
+
+<use FIGS/brightness/cat-b-40-stippler.png>
+Package pdftex.def Info: FIGS/brightness/cat-b-40-stippler.png used on input li
+ne 332.
+(pdftex.def)             Requested size: 103.34666pt x 68.6084pt.
+
+<FIGS/brightness/cat-b-20-stippler.png, id=201, 630.85687pt x 419.31656pt>
+File: FIGS/brightness/cat-b-20-stippler.png Graphic file (type png)
+
+<use FIGS/brightness/cat-b-20-stippler.png>
+Package pdftex.def Info: FIGS/brightness/cat-b-20-stippler.png used on input li
+ne 336.
+(pdftex.def)             Requested size: 103.34666pt x 68.69157pt.
+
+<FIGS/brightness/cat-b+20-stippler.png, id=202, 629.35126pt x 418.56375pt>
+File: FIGS/brightness/cat-b+20-stippler.png Graphic file (type png)
+
+<use FIGS/brightness/cat-b+20-stippler.png>
+Package pdftex.def Info: FIGS/brightness/cat-b+20-stippler.png used on input li
+ne 340.
+(pdftex.def)             Requested size: 103.34666pt x 68.72792pt.
+
+<FIGS/brightness/cat-b+40-stippler.png, id=203, 629.35126pt x 417.81094pt>
+File: FIGS/brightness/cat-b+40-stippler.png Graphic file (type png)
+
+<use FIGS/brightness/cat-b+40-stippler.png>
+Package pdftex.def Info: FIGS/brightness/cat-b+40-stippler.png used on input li
+ne 344.
+(pdftex.def)             Requested size: 103.34666pt x 68.60431pt.
+ [5 <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/size/cat-xsmall-750
+0.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/size/cat-small-7
+500.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/size/cat-middl
+e-7500.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/size/cat-la
+rge-7500.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/size/cat-
+xsmall-stippler.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/FIGS/si
+ze/cat-small-stippler.png> <C:/Users/Yeojin/Documents/GitHub/stippling/report/F
+IGS/size/cat-middle-stippler.png>
+!pdfTeX error: pdflatex.exe: fflush() failed (Invalid argument)
+ ==> Fatal error occurred, no output PDF file produced!

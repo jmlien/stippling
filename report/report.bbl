@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+
+\bibitem{Hoff:1999:FCG:311535.311567}
+Kenneth~E. Hoff, III, John Keyser, Ming Lin, Dinesh Manocha, and Tim Culver.
+\newblock Fast computation of generalized voronoi diagrams using graphics
+  hardware.
+\newblock In {\em Proceedings of the 26th Annual Conference on Computer
+  Graphics and Interactive Techniques}, SIGGRAPH '99, pages 277--286, New York,
+  NY, USA, 1999. ACM Press/Addison-Wesley Publishing Co.
+
+\bibitem{Okabe:1992:STC:135734}
+Atsuyuki Okabe, Barry Boots, and Kokichi Sugihara.
+\newblock {\em Spatial Tessellations: Concepts and Applications of Voronoi
+  Diagrams}.
+\newblock John Wiley \& Sons, Inc., New York, NY, USA, 1992.
+
+\bibitem{secord02}
+Andrian Secord.
+\newblock Weighted voronoi stippling.
+\newblock In {\em 2nd International Symposium on Non-Photorealistic Animation
+  and Rendering (NPAR'02)}, pages 37--43, Annecy, France, June 3-5 2002.
+
+\end{thebibliography}

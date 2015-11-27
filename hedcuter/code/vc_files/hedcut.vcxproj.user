@@ -6,7 +6,7 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LocalDebuggerCommandArguments>-n 5000 -subpixel 5 -iteration 100 -avg 0.5 -radius 5 pallete.png </LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-n 5000 -iteration 100 -gpu -radius 5 pallete.png </LocalDebuggerCommandArguments>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerWorkingDirectory>$(ProjectDir)\..\..\..\images</LocalDebuggerWorkingDirectory>
     <LocalDebuggerEnvironment>
