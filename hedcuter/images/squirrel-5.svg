@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800px" height="600px" xmlns="http://www.w3.org/2000/svg" version="1.1" >
+	<circle cx="672" cy="134" r="1" fill="rgb(143,143,143)" />
+	<circle cx="154" cy="165" r="1" fill="rgb(130,130,130)" />
+	<circle cx="181" cy="454" r="1" fill="rgb(131,131,131)" />
+	<circle cx="631" cy="472" r="1" fill="rgb(145,145,145)" />
+	<circle cx="417" cy="237" r="1" fill="rgb(135,135,135)" />
+</svg>
