@@ -1,5 +1,6 @@
 #pragma once
 
+#include <list>
 #include <string>
 #include <vector>
 #include <sstream>
@@ -20,14 +21,17 @@
 //#include <opencv2/calib3d/calib3d.hpp>
 #include <opencv2/video/video.hpp>
 #include <opencv2/features2d/features2d.hpp>
-#include "opencv2/contrib/contrib.hpp"
+//#include "opencv2/contrib/contrib.hpp"
 
 //FOR GPU
-#include <Windows.h>
-//#include <GL/glew.h>
-#include <GL/GL.h>
-#include <GL/GLU.h>
+#ifdef __APPLE__
+#include <GLUT/glut.h>
+#elif defined(WIN32)
+#include <cstdlib>
+#include "GL/glut.h"
+#else
 #include <GL/glut.h>
+#endif
 
 
 extern int argc_GPU;

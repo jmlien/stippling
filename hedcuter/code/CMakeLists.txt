@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
 
-project(2svg)
+project(hedcuter)
 
 set(PACKAGE_VERSION "0.1.0")
 
@@ -33,12 +33,10 @@ include_directories(
 # Unfolder GUI
 #################################################################
 
-set(APP_NAME 2svg)
+set(APP_NAME hedcuter)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR})
 
-set(HEDCUT_SRC
-  main.cpp
-  CurveCSS.cpp
+set(HEDCUT_SRC hedcut.cpp   main.cpp    wcvt.cpp    wcvt_gpu.cpp
 )
 
 add_executable(${APP_NAME} ${HEDCUT_SRC})

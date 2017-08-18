@@ -78,7 +78,8 @@ void CVT::vor(cv::Mat &  img)
 
 				int y = cpos.y + dy;
 				if (y < 0 || y >= res.width) continue;
-				float newd = dist.at<float>(cpos.x, cpos.y) + color2dist(resizedImg, cv::Point(x, y));
+                cv::Point pt_tmp(x, y);
+				float newd = dist.at<float>(cpos.x, cpos.y) + color2dist(resizedImg, pt_tmp);
 				float oldd = dist.at<float>(x, y);
 
 				if (newd < oldd)
